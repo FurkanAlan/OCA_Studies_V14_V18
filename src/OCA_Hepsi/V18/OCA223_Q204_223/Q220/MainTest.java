@@ -1,0 +1,17 @@
+package OCA_Hepsi.V18.OCA223_Q204_223.Q220;
+
+public class MainTest {
+    public static void main(String[] args) {
+        System.out.println("String main "+args[0]);
+    }
+}
+//and commands:
+//javac MainTest.java
+//java MainTest "1 2 3"
+//
+//what is the result?
+//        A. String main 1
+//        B. An exception is thrown at runtime
+//        C. String main 1 2 3
+//        D. String main 123
+//        Answer: A diyo ama C cikti

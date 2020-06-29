@@ -1,0 +1,23 @@
+package OCA223_Q61_71;
+
+public class Q_70 {
+	public static void main(String[] args) {
+        int x = 10;
+        int y = ++x;
+        int z = 0;
+        if(y >= 10 | y<= ++x){
+            z = x;
+        }else {
+            z = x++;
+        }
+        System.out.println(z);
+    }  // x++     x=X+1    ++x=x+1   , y=x+1
+
+}
+/*
+What is the result?
+A. 11
+B. 10
+C. 12
+D. A compile time error occurs.
+ */

@@ -1,0 +1,2 @@
+MotorCycle is an interface that implements the Cycle class. ==> yanlis cunku
+Interface cant implement class

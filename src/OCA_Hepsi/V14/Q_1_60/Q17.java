@@ -1,0 +1,84 @@
+package OCA_Hepsi.V14.Q_1_60;
+
+public class Q17 {
+   public static void main(String[] args) {
+
+       /*
+       burada ilk basta bir deger veriyoruz lakin asagidaki new ila yeni bir array
+        tanimliyoruz, eger herhangi bir array tanimlama yapilmazsa 0 0 0 0 verecek 4 sayi olmasinin sebebi bizim
+        belirlemis oldugumuz [2][4] olmasindan dolayi, biz burada tanimlanmis olan degerleri kendimize gore new
+        keyword ila degistirilebiliyor
+
+        mesela ben burada array in icine deger vermek istiyorsam arr[1][2] = 2; seklinde yapabilirim
+       * */
+        int [] [] arr = new int [2][4];
+        arr[0] = new int [] {1, 3, 5, 7};
+        arr [1] = new int [] {1, 3};
+        for (int[] a : arr) {
+            for (int i : a){
+                //burada dikkat edilmesi gereken bir husus eger forEach - enhanced loop in icerisindeki
+                //System.out.print(a[i] + " "); seklinde yapsam hatali olur, sadece deger olmali
+                System.out.print(i + " ");
+
+            }
+            System.out.println();
+        }
+
+
+
+
+//       //second version
+//       int[][] arr = new int[2][4];
+//       arr[0] = new int[]{1, 3, 7};
+//       arr[1] = new int[]{1, 3};
+//       for (int[] a : arr) {
+//           for (int i : a) {
+//               System.out.println(i + " ");
+//
+//           }
+//           System.out.println();
+//       }
+
+
+
+   }
+}
+
+//1 3 5 7
+//1 3
+
+    //second version
+//       int[][] arr = new int[2][4];
+//       arr[0] = new int[]{1, 3, 7};
+//       arr[1] = new int[]{1, 3};
+//       for (int[] a : arr) {
+//           for (int i : a) {
+//               System.out.println(i + " ");
+//
+//           }
+//           System.out.println();
+//       }
+//   }
+//}
+//output: 1 3 5 7
+//        1 3
+/**
+ What is the result?
+ A. Compilation fails
+ B. 1 3
+    1 3
+ C. 1 3
+    Followed by an ArrayIndexOutOfBoundsException
+ D. 1 3
+    1 3 0 0
+ E. 1 3 5 7
+    1 3
+
+ A. Option A
+ B. Option B
+ C. Option C
+ D. Option D
+ E. Option E
+ Answer: E
+
+ */
