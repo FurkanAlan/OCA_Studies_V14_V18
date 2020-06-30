@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 class Person{
 	String nameString;
 	int age;
-	
+
 	public Person (String n, int a) {
 		nameString = n;
 		age =a;
@@ -21,7 +21,7 @@ class Person{
 }
 
 public class Test {
-	public static void chaeckAge(List<Person> list, Predicate<Person> predicate) {
+	public static void checkAge(List<Person> list, Predicate<Person> predicate) {
 		for (Person p : list) {
 			if (predicate.test(p)) {
 				System.out.println(p.nameString + " ");
@@ -39,7 +39,7 @@ public class Test {
 		
 //		checkAge (iList, () -> p.getAge() > 40);
 //		checkAge (iList, Person p -> p.getAge() > 40);
-//		checkAge (iList, p-> p.getAge() > 40);
+		checkAge (iList, p-> p.getAge() > 40);
 //		checkAge (iList, (Person p) -> {p.getAge() > 40});
 		
 

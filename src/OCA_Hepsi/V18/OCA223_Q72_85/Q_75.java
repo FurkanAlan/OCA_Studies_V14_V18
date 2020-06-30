@@ -1,26 +1,26 @@
 package OCA_Hepsi.V18.OCA223_Q72_85;
 
 public class Q_75 {
-
+	public static void main(String[] args) {
+		int ii=0;
+		int jj=7;
+		for(ii=0; ii<jj; ii+=2) { 
+			System.out.print(ii+" ");
+		}
+		
+		System.out.println();
+		//answer 0 2 4 6
+		//second version
+		
+		
+			for(ii=0;ii<jj-1;ii+=2) { // 7-1 =jj=6 6 dan kucuk olmadigi icin 6 yi yazdirmaz
+				System.out.print(ii+" ");
+			}
+		}
 }
 
-class Test75{
-void readCard(int cardNo) throws Exception{ //buraya runtimeexception yazinca error vermiyr
-    System.out.println("Reading Card");
-}
 
-void checkCard(int cardNo) throws RuntimeException{  // line n1
-    System.out.println("Checking Card");
-}
 
-public static void main(String[] args) {
-    Test75 ex = new Test75();
-    int cardNo = 12344;
-  //ex.readCard(cardNo);   // line n2
-    ex.checkCard(cardNo);  // line n3
-}
-}
+//answer 0 2 4
 
-/*
-compilation fails at line n2
-*/
+

@@ -1,7 +1,7 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q034;
 
 public class Triangle {
-	static double area;
+	static double area; //eger burasi static olmasaydi hata verirdi
 	int b= 2, h = 3;
 
 	public static void main(String[] args) {

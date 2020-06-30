@@ -1,4 +1,4 @@
-//package OCA_Hepsi.V18.OCA223_Q0_60.q051;
+//package OCA_Hepsi.V18.OCA223_Q1_60.q051;
 //interface Exportable{
 //	void export();
 //}
@@ -11,6 +11,7 @@
 //	public void export() {							// line n2
 //		System.out.println("RTool::export");
 //	}
+//
 //	public static void main(String[] args) {
 //		Tool aTool = new ReportTool();
 //		Tool bTool = new Tool();

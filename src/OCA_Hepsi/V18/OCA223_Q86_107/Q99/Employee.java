@@ -10,6 +10,9 @@ public Employee (String name,int age) {
 	setName (name);
 	setAge (age);
 	setSalary (2000);
+
+//	this.name = name;
+//	this.age = age;
 }
 
 	public Employee (String name,int age,int salary) {
@@ -18,8 +21,12 @@ public Employee (String name,int age) {
 
 	}
 
+//	public Employee() {
+//
+//	}
 
-// getter and setter methods for attributes go here	
+
+	// getter and setter methods for attributes go here
 	public String getName() {
 		return name;
 	}

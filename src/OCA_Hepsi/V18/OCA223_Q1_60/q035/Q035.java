@@ -1,9 +1,9 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q035;
 
 public class Q035 {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		String opt = "true";
-		switch (opt) { // switch does not work with  long, double, float and boolean 
+		switch (opt) { // switch does not work with  long, double, float and boolean
 		case "true":
 			System.out.println("True");
 			break;
@@ -11,7 +11,18 @@ public class Q035 {
 			System.out.println("***");
 		}
 		System.out.println("Done");
-	}
+
+
+//        Integer x = 1; //wrapper class da oluyor
+//        switch (x) {
+//            case 1:
+//                System.out.println(4);
+//                break;
+//            case 2:
+//                System.out.println(1);
+//                break;
+//        }
+    }
 }
 
 //Which modification enables the code fragment to print TrueDone?
@@ -20,3 +31,4 @@ public class Q035 {
 //C.	At line 9, remove the break statement.
 //D.	Remove the default section.
 
+//CIBS prensibi switch-case icin uygulanir, c = character, i = integer, b = byte, s = string

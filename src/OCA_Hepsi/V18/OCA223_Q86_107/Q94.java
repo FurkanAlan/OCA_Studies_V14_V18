@@ -9,12 +9,12 @@ class Person {
     String name;
     int age = 25;
 
-    Person(String name){    // line n1
+     Person(String name){    // line n1
         setName(name);
     }
 
     public Person(String name, int age){    // line n2
-     //  Person(name);
+//       Person(name);
 
         setAge(age);
     }
@@ -48,7 +48,7 @@ B. Compilation fails only at line n2.
 C. Compilation fails only at line n1. 
 D. Jesse 25Walter 52
 
-Answer: A
+Answer: B
  */
 
 // Answer B => compilation fails at line n2

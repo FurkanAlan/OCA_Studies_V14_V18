@@ -43,8 +43,8 @@ public class Q91 {
 //        ArrayList<Hunter>myList3=new ArrayList<>();
 //        myList3.add(new Tiger());
 //D)
-      ArrayList<Cat> myList4=new ArrayList<>();
-      myList4.add(new Tiger());
+//      ArrayList<Tiger> myList4=new ArrayList<>(); //cast gerekli
+//      myList4.add(new Cat());
 //E)
 //        ArrayList<Animal>myList5=new ArrayList<>();
 //        myList5.add(new Cat());
@@ -54,7 +54,7 @@ public class Q91 {
         C.Option C
         D.Option D
         E.Option E
-        Answer: eski D yeni E diyor
+        Answer:  D
          */
    // }
 

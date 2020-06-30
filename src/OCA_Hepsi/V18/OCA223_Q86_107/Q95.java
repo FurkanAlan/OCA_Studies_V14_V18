@@ -21,11 +21,16 @@ class Shop {
 		List<Product> lst = new ArrayList<>() ;
 		lst.add(new Product(10, "IceCream")); //st deil 1st. hata verince st cevirdim.
 		lst.add(new Product(11, "Chocolate"));
-		Product p1 = new Product(10, "IceCream");
+		Product p1 = new Product(10, "IceCream"); //burada assign edilmedigi icin p1 den dolayi herhangi birsey yok
+		// eklenmedi
 
 		//lst.add(p1);
-		System.out.println(p1.id);
+
+//		System.out.println(p1.id);
+
 		System.out.println(lst.indexOf(p1));
+//		Returns the index of the last occurrence of the specified element
+//     in this list, or -1 if this list does not contain the element.
 
 //			System.out.println(lst.get(0).name);
 			
