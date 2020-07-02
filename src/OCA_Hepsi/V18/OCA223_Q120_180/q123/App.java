@@ -5,14 +5,13 @@ public class App {
     String myStr = "9009"; //global variable
 
     public void doStuff(String str) {
-        int myNum = 0;
+        int myNum = 0; // eger bu degisken try in icerisnde tanimli olsaydi hata verirdi
 
 
-//        if (Integer.parseInt(str) > 7006){
-//        	myNum = Integer.parseInt(str);
-//		}
+
 
         try {
+
             String myStr = str;
             myNum = Integer.parseInt(myStr);
         }  //buradaki myNum degeri guncelleniyor ve 7007 olarak sout a deger olarak gidiyor
@@ -20,6 +19,7 @@ public class App {
         catch (NumberFormatException ne) {
             System.err.println("Error");
         }
+
         System.out.println("myStr: " + myStr + ", myNum: " + myNum);
     }
 
