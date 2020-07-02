@@ -6,16 +6,16 @@ public class Q160 {
         int x;
 //        x = 0;
 //        do {
-//            System.out.println("*");
+//            System.out.print("*");
 //        } while (x++ < 3);
+
 //        x = 3;
 //        do {
-//            System.out.println("*");
+//            System.out.print("*");
 //            x--;
 //        } while (x >= 0);
 
     }
-
 }
 
 //Ans = A, E

@@ -12,6 +12,10 @@ public class q159 {
         k = 200;
     }
 
+    //        public void method(Book x, q159 k) {
+//        x.pages = 100;
+//        k.count = 200;
+//    }
 
     public static void main(String[] args) {
         q159 obj = new q159();

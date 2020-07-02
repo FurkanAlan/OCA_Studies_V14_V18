@@ -9,9 +9,9 @@ class Employee {
     private int age;
     private int salary;
 
-    public Employee() { //main de tanimli olan e1 objesinin constructor u bos oldugu icin burada da bos bir
-        // constructor olmali diger turlu hem Employee de hemde Test class da compile hatasi verir
-    }
+//    public Employee() { //main de tanimli olan e1 objesinin constructor u bos oldugu icin burada da bos bir
+//        // constructor olmali diger turlu hem Employee de hemde Test class da compile hatasi verir
+//    }
 
     public Employee(String name, int age) {
         setName(name);
@@ -60,11 +60,12 @@ class Employee {
 
 class Test {
     public static void main(String[] args) {
-        Employee e1 = new Employee();
+//        Employee e1 = new Employee();
         Employee e2 = new Employee("Jack", 50);
         Employee e3 = new Employee("Chloe", 40, 5000);
-        e1.printDetails();
+//        e1.printDetails();
         e2.printDetails();
         e3.printDetails();
     }
 }
+//Ans : E

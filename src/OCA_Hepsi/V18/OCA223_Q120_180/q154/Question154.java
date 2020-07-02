@@ -10,7 +10,10 @@ public class Question154 {
 	        ArrayList myList = new ArrayList();
 	        String[] myArray;
 	        try{
-	            while(true){                  //infinite doner. Memoriden kaynaklanan mainde bir hata olusur. Memoryoverflow da hata yani.
+	            while(true){                  //infinite loop. Memoriden kaynaklanan mainde bir hata olusur.
+	            	// Memoryoverflow da hata yani.
+//					Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+
 	                myList.add("My String");
 //	                System.out.println("While loop");
 	            }
