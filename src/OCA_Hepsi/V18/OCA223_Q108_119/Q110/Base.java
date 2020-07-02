@@ -1,26 +1,46 @@
 package OCA_Hepsi.V18.OCA223_Q108_119.Q110;
+
 //bunu kontrol edelim package leri mi ayri anlamadim
 public class Base {
-    public void test(){
+    public void test() {
         System.out.println("Base ");
     }
 }
-class DerivedA extends Base{
-    public void test(){
+
+class DerivedA extends Base {
+    public void test() {
+
+
         System.out.println("DerivedA ");
     }
 }
-class DerivedB extends  DerivedA{
-    public void test(){
+
+class DerivedB extends DerivedA {
+
+    public void test() {
+//        Base x = new Base();
+//        x.test();
+//        Base y = new DerivedA();
+//        y.test();
+//        DerivedA z = new DerivedA();
+//        z.test();
+//        DerivedA w = (DerivedA) new Base(); // bu ifade ClassCast a sebep oluyor, parent-child
+//        z.test();
+//
+//        DerivedA tou = new DerivedB(); // bu sekilde oldugunda Exception in thread "main" java.lang.StackOverflowError
+//        tou.test();
+
+//        DerivedB chi = new DerivedB(); // bu sekilde oldugunda Exception in thread "main" java.lang.StackOverflowError
+//        chi.test();
         System.out.println("DerivedB ");
     }
 
     public static void main(String[] args) {
-        Base b1=new DerivedB();
-        Base b2=new DerivedA();
-        Base b3=new DerivedB();
-        b1=(Base)b3;
-        Base b4=(DerivedA)b3;
+        Base b1 = new DerivedB();
+        Base b2 = new DerivedA();
+        Base b3 = new DerivedB();
+        b1 = (Base) b3;
+        Base b4 = (DerivedA) b3;
         b1.test();
         b4.test();
 

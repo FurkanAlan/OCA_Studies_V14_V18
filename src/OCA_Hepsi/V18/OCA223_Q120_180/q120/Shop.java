@@ -3,12 +3,12 @@ package OCA_Hepsi.V18.OCA223_Q120_180.q120;
 class Cart {
 
 	Product p;
-	double totalAmount;	
+	double totalAmount;	 //primitive type
 	}
 	
 class Product {
 	String name;
-	Double price;
+	Double price; //wrapper class, global seviyede tanimlanirsa degeri null olur
 }
 
 public class Shop {

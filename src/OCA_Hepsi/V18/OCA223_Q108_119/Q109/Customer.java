@@ -1,17 +1,33 @@
 package OCA_Hepsi.V18.OCA223_Q108_119.Q109;
+
+import java.util.Scanner;
+
 //Given these two classes
 public class Customer {
-//    ElectricAccount acct=new ElectricAccount();
-//    public  void useElectricity(double kWh){
+    ElectricAccount acct = new ElectricAccount();
+
+    //acc ==> class a direk olusturmus oldugumuz class objesinin metodlarini cagiramiyoruz, metod icnde olmali
+    public void useElectricity(double kWh) {
 //        acct.addKWh(kWh);
-//    }
-//}
-//public class ElectricAccount{
-//    private  double kWh;
-//    private double rate=0.07;
-//    private double bill;
-//    //line1
+    }
+
+
+    public static void main(String[] args) {
+        ElectricAccount hesab = new ElectricAccount();
+
+
+//        System.out.println("sonuc: " + hesab.addKWh(1)); //burada tamper demek hesab 0 veya negatif olmamali demek
+        // sanirim
+    }
 }
+
+class ElectricAccount {
+    private double kWh;
+    private double rate = 0.07;
+    private double bill;
+    //line1
+
+
 /*Any amount of electricity used by a customer
  (represented by an instance of the Customer class)
  must contribute to the customer's bill
@@ -29,30 +45,55 @@ public class Customer {
 Lead to pass your exam quickly and easily.
 A. Option A
  */
-/*A  public void aaKWh(double kWh){
-      this.kWh+=kWh;
-      this.bill=this.kWh*this.rate;}
-  B  public void addKWh(double kWh){
-      if(kWh>0){
-      this.kWh+=kWh;
-      this.bill=this.kWh*this,rate; }}
-  C  private void addKWh(double kWh){
-       if(kWh > 0){
-          this.kWh+=kWh;
-          this.bill=this.kWh*this.rate; }}
-  D public void addKWh(double kWh){
-        if(kWh>0){
-            this.kWh +=kWh;
-            setBill(this.kWh);
-         }
-     }
-     public void setBill(double kWh){
-          bill=kWh*rate;
-     }
 
-  A. Option A
-  B. Option B
-  C. Option C
-   D. Option D
-   Answer: A
- */
+
+    //A ==> void idi bunu return type olarak degistirdim deger alabilmek icin
+//    public void addKWh(double kWh) {
+//
+//        this.kWh = this.kWh + kWh;
+//        this.bill = this.kWh * this.rate;
+//
+//    }
+
+////  B
+
+//    public  addKWh(double kWh) {
+//        if (kWh > 0) {
+//            this.kWh = this.kWh + kWh;
+//            this.bill = this.kWh * this.rate;
+//        }
+//
+//    }
+
+////  C ==> private oldugu icin hata verir , ayni class icerisinde olmali
+
+//    private void addKWh(double kWh) {
+//        if (kWh > 0) {
+//            this.kWh += kWh;
+//            this.bill = this.kWh * this.rate;
+//        }
+//    }
+
+    ////  D
+
+//    public double addKWh(double kWh) {
+//        if (kWh > 0) {
+//            this.kWh += kWh;
+//            setBill(this.kWh);
+//        }
+//        return bill;
+//    }
+//
+//    public void setBill(double kWh) {
+//        bill = kWh * rate;
+//    }
+
+
+}
+
+
+//  A. Option A
+//  B. Option B
+//  C. Option C
+//   D. Option D
+//   Answer: A

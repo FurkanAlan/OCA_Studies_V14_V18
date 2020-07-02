@@ -1,18 +1,20 @@
 package OCA_Hepsi.V18.OCA223_Q108_119.Q119;
 
 public class App {
-    String greet="Welcome!";
-    public App(){
-        String greet="Hello!";
+    String greet = "Welcome!";
+
+    public App() {
+        String greet = "Hello!";
     }
-    public void setGreet(){
-        String greet="Good Day!";
+
+    public void setGreet() {
+        String greet = "Good Day!";
+//        System.out.println(greet);
     }
 
     public static void main(String[] args) {
-        App t=new App();
-
-        String greet="Good Luck!";
+        App t = new App();
+        String greet = "Good Luck!";
         System.out.println(t.greet);
     }
 }

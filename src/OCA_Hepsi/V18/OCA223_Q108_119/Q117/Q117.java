@@ -17,6 +17,6 @@ public class Q117 {
  C. A C D D
  D. A B D
  E. A B D C
- Answer: C
+ Answer: A B C C
 
  */
