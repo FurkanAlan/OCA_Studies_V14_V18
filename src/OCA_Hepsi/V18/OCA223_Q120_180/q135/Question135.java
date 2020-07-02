@@ -1,13 +1,15 @@
 package OCA_Hepsi.V18.OCA223_Q120_180.q135;
 
+import java.util.Arrays;
+
 class Planet {
-	public String name;
-	public int moons;
-	
-	public Planet(String name, int moons) {
-		this.name = name;
-		this.moons = moons;
-	}
+    public String name;
+    public int moons;
+
+    public Planet(String name, int moons) {
+        this.name = name;
+        this.moons = moons;
+    }
 //	public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
 //		return name+moons;
 //	}
@@ -16,21 +18,22 @@ class Planet {
 public class Question135 {
 
 
-		
-		public static void main(String[] args) {
-			Planet[] planets = {
-					new Planet ("Mercury", 0),
-					new Planet ("Venus", 0),
-					new Planet ("Earth", 1),
-					new Planet ("Mars", 2),
-							
-			};
-			
-			System.out.println(planets);
-			System.out.println(planets[2].name);
-		    System.out.println(planets[2].moons);
+    public static void main(String[] args) {
+        Planet[] planets = {
+                new Planet("Mercury", 0),
+                new Planet("Venus", 0),
+                new Planet("Earth", 1),
+                new Planet("Mars", 2),
 
-		}
+        };
+
+        System.out.println(planets);
+//        System.out.println(Arrays.toString(planets));
+
+        System.out.println(planets[2].name);
+        System.out.println(planets[2].moons);
+
+    }
 		
 		/*
 		 
@@ -59,10 +62,10 @@ public class Question135 {
 		 
 		 */
 
-	}
+}
 
 //Answer:  C
-	
+
 //	Earth
-  //      1
+//      1
 

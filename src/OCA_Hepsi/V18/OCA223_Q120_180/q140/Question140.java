@@ -1,18 +1,15 @@
 package OCA_Hepsi.V18.OCA223_Q120_180.q140;
-
 public class Question140 {
-
-	
 	    public static void main(String[] args) {
-//	        int iVar = 100;
-//	        float fVar = 100.100f;
-//	        double dVar = 123;
-	        //  fVar = iVar;
-	        //  iVar = fVar;
-	        //  fVar = dVar;
-	        //  dVar = fVar;
-	        //  iVar = dVar;
-	        //  dVar = iVar;
+	        int iVar = 100;
+	        float fVar = 100.100f;
+	        double dVar = 123;
+//	          fVar = iVar;
+//	          iVar = fVar;
+//	          fVar = dVar;
+//	          dVar = fVar;
+//	          iVar = dVar;
+//	          dVar = iVar;
 	        /*
 	        Second Version
 	        the question was same but number of lines was changed.
@@ -30,7 +27,7 @@ public class Question140 {
 	        E. Line 11
 	        F. Line 12
 
-	        Answer: ADF
+	        Answer: B C E
 	         */
 
 

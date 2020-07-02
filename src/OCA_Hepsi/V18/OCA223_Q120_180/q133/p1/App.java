@@ -1,15 +1,15 @@
 package OCA_Hepsi.V18.OCA223_Q120_180.q133.p1;
 
-public class Question133 {
 
 //package p1;
-	public class App {
-		public void main (String []args) {
-			
-		System.out.println("Java");	
-		
-		}
-	}}
+public class App {
+    public void main(String[] args) {
+
+        System.out.println("Java");
+
+    }
+}
+
 
 //	and of Test.java:
 //		
@@ -22,6 +22,6 @@ public class Question133 {
 //			B. The App class is accessible within the Test class without an importanrt statement.
 //			C. Import p1.App; is used to access the App class within the Test class.
 //			D. It is optional to have the package statement as the first line of class definitions.
-			
-			//Answer:C
+
+//Answer:C
 //C dogru, cunku Test.class baska yerde de olabilir

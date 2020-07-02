@@ -2,7 +2,7 @@ package OCA_Hepsi.V18.OCA223_Q120_180.q134;
 
 public class Question134 {
 
-	}
+}
 		/*
 		which two class definitions fail to compile?(choose two)
 		dogru cevap:
@@ -11,42 +11,52 @@ public class Question134 {
 	*/
 
 
-	//
-		//A 
-//		abstract class A3 {
-//			private static int i;
-//			public void doStuff() {}
-//			public A3() {}
-	//
-//		}
+//
+//A
+//abstract class A3 {
+//    private static int i;
+//
+//    public void doStuff() {
+//    }
+//
+//    public A3() {
+//    }
+//}
 
-		//B
-//		final class A1 {
-//			public A1() {
-//			}
-//		}
+//B
+//final class A1 {
+//    public A1() {
+//    }
+//}
 
-		// C --> We can not declare top level class as private. Java allows only public and
-		//       default modifier for top level classes in java. Inner classes can be private.
+// C --> We can not declare top level class as private. Java allows only public and
+//       default modifier for top level classes in java. Inner classes can be private.
 
-//		private class A2 {
-//			private static int i;
-//			private A2() { }
-//		}
+//private class A2 {
+//    private static int i;
+//
+//    private A2() {
+//    }
+//}
 
 
-		//D
-		class A4 {
-	    protected static final int i =10 ;
-	    private A4() { }
-	}
+//D
+//class A4 {
+//    protected static final int i = 10;
+//
+//    private A4() {
+//    }
+//}
 
-		//E -->  class can be final or abstract, not both of them
-//		final abstract class A5 {
-//	    protected static int i;
-//	    void doStuff() { }
-//	    abstract void doIt();
-	//}
+//E -->  class can be final or abstract, not both of them
+//final abstract class A5 {
+//    protected static int i;
+//
+//    void doStuff() {
+//    }
+//
+//    abstract void doIt();
+//}
 
 
 
