@@ -23,11 +23,11 @@ public class Q195 {
 ////            }
 ////        }
 ////C
-//        for(String [] c : shirts){
-//            for (String s : c){
-//                System.out.print(s+":");
-//            }
-//        }
+        for(String [] c : shirts){
+            for (String s : c){
+                System.out.print(s+":");
+            }
+        }
 ////D
 //        for(int index = 0; index <=2; ){
 //            for(int idx = 0; idx <=2; ){

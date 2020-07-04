@@ -25,14 +25,14 @@ class Test11{
     public static void main(String[] args) {
        CheckingAccount acct = new CheckingAccount((int)(Math.random()*1000)); //Math.rondom() rondom bir rakam olustururyor.
        // line n1
-        // acct.setAmount(-acct.getAmount());
-//        acct.amount = 0;
+//         acct.setAmount(-acct.getAmount());
+        acct.amount = 0;
 //        acct.setAmount(0);
-//        acct.getAmount()=0;
-//        this.amount = 0;
+//        acct.getAmount()=0; //variable expected
+//        this.amount = 0; //cannot be referenced from static content
 //        acct.changeAmount(0);
-        acct.changeAmount(-acct.amount);
-//          setAmount();
+//        acct.changeAmount(-acct.amount);
+//        System.out.println(acct.amount);
         System.out.println(acct.getAmount());
     }
 }

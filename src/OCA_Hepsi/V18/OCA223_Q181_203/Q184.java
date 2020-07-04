@@ -18,6 +18,11 @@ public class Q184 {
         area = length*heigth;
     }
 
+//    public static void main(String[] args) {
+//        Q184 alan = new Q184();
+//        System.out.println(alan.area);
+//    }
+
 }
 /*
 Which two changes would encapsulate this class and ensure that the area field is always equal to length * height whenever the Rectangle class is used?

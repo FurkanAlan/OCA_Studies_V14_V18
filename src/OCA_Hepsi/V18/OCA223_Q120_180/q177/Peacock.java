@@ -19,7 +19,7 @@ public class Peacock extends Bird {
 
 //B, bu hata verecek cunku ilk olarak bird parent, parent objesi var bunun uzerinden islem var
 //        Bird b = new Bird();
-//        Peacock p = (Peacock) b;
+//        Peacock p = (Peacock) b; //Casting 'b' to 'Peacock' will produce 'ClassCastException'
 
 //C, burada da child objesi var
 //        Peacock b = new Peacock();
@@ -28,6 +28,11 @@ public class Peacock extends Bird {
 //D	==> dogru cevap
         Bird b = new Peacock();
         Peacock p = (Peacock) b;
+
+//        Bird b;
+//        b = new Peacock();
+//        Peacock p;
+//        p = (Peacock) b;
 
         p.fly();
         p.dance();

@@ -5,7 +5,7 @@ public class Q193 {
         int sum = 0;
         for (int xVal = 1; xVal <= 5; xVal++){
             sum = sum + xVal;
-//            System.out.println("The sum of "+xVal + " number is: " +sum);
+            System.out.println("The sum of "+xVal + " number is: " +sum);
         }
 //        System.out.println("The sum of "+xVal + " number is: " +sum);
     }

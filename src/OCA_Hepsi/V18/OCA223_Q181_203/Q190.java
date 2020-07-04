@@ -12,9 +12,9 @@ class E2 extends RuntimeException{
 }
 
  class App{
-    public void m1() throws E1 {
+    public void m1() {
         System.out.println("m1.Accessed.");
-        throw new E1();
+//        throw new E1();
     }
 
     public void m2(){
@@ -23,7 +23,7 @@ class E2 extends RuntimeException{
 
     }
 
-    public static void main(String[] args) throws E1 {
+    public static void main(String[] args) {
         int level = 1;
         App obj = new App();
         if (level <= 5 && level >= 3){

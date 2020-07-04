@@ -6,8 +6,8 @@ public class Q210 {
     public static void main(String[] args) {
         Predicate<Integer> p = (Integer n) -> { return n % 2 == 0; };
         //insert code here
-        Boolean s=p.test(100);
-        System.out.println(s);
+//        Boolean s=p.test(100);
+//        System.out.println(s);
 
 
     }
@@ -24,7 +24,8 @@ public class Q210 {
       }else{
            System.out.println("true");
       }
-   D.  System.out.println(p.apply(100));
+   D.
+   System.out.println(p.apply(100));
 
    A.Option A
    B. Option B

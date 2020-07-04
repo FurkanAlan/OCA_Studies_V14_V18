@@ -7,6 +7,7 @@ class OraString {
     String s;
 
     public boolean equals(OraString str) {
+//        System.out.println(str.getClass());
         return this.s.equalsIgnoreCase(str.toString());
     }
 

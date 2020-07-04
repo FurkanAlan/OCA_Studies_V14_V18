@@ -12,8 +12,8 @@ class S1 {
 class S2 extends S1 {
     public void display(int x, int y) {
         this.display(x);
-        display(y);
-        super.display(y);
+        display(y); //buradaki y ifadesi 100 olur ve bu cild e gider ve 100 degerini alir
+        super.display(y); //buradaki y ifadesi 100 olur ve bu parent e gider (cunku super. var) ve 100 degerini alir
     }
 
     public void display(int x) {

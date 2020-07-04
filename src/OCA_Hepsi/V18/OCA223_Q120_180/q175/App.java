@@ -19,5 +19,5 @@ public class App {
         App.process();
         System.out.println(secondObj.bar);
     }
-
 }
+

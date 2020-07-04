@@ -17,10 +17,23 @@ abstract class Vehicle {
 }
 
 class Bus extends Vehicle {
+    //    Vehicle xa = new Bus();
+//    public void start() { //overriding, farkli class, active polymorh
+//    }
+//
+//    public void start(int x){ //overloading, ayni class, passive polymorh
+//
+//    }
+//    public void stop() {
+//    }
 
     @Override
     public void ride() {
-
+//        int x = 5;
+//        int y;
+//        Bus xc = new Bus();
+//        xc.start();
+//        xa.ride();
     }
 }
 
