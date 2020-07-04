@@ -3,7 +3,7 @@ package OCA_Hepsi.V18.OCA223_Q1_60.q056;
 public class Q056 {
 
 	public static void main(String[] args) {
-		String string = " ";
+		String string = " "; //eger burasi "" olsaydi sonuc true true olurdu
 		string.trim();
 		System.out.println(string.contentEquals("") + " " + string.isEmpty());
 	}

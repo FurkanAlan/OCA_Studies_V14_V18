@@ -1,10 +1,10 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q055;
-public class Q056 {
+public class Q055 {
 	public static void main(String[] args) {
 		int x = 5;
 		while (isAvaillable(x)) {
 			System.out.println(x);
-			
+//			x--;
 		}
 	}
 	public static boolean isAvaillable(int x) {
@@ -18,3 +18,5 @@ public class Q056 {
 //B.	At line 7, insert x --;
 //C.	Replace line 6 with --x; and, at line 7, insert System.out.print (x);
 //D.	Replace line 12 with return (x > 0) ? false: true;
+
+//Ans - B

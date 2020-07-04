@@ -1,21 +1,26 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q009;
 
-class CD{
-	int r;
-	CD (int r){
-		this.r = r;
-	}
+class CD {
+    int r;
+
+    CD(int r) {
+        this.r = r;
+    }
 }
-public class DVD extends CD{
-	int c;
-	DVD(int r, int c){
-		// line n1
+
+public class DVD extends CD {
+    int c;
+
+    DVD(int r, int c) {
+        // line n1
 		super(r);
-		this.c = c;
-	}
-	public static void main(String[] args) {
-		DVD dvd = new DVD(10,  20);
-	}
+//        super.r = r;
+        this.c = c;
+    }
+
+    public static void main(String[] args) {
+        DVD dvd = new DVD(10, 20);
+    }
 }
 /*
 Which code fragment should you use at line n1 to instantiate the dvd object successfully?

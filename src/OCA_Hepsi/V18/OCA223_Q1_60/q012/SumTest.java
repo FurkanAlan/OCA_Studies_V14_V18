@@ -13,7 +13,7 @@ public class SumTest {
 		System.out.println("float sum is " + (x + y));
 	}
 	
-	public static void doSum(int x, int y) {
+	public static void doSum(int x, int y) { //eger int olmasaydi sonuc float 30, double 30.0 olurdu
 		System.out.println("int sum is " + (x + y));
 	}
 	

@@ -13,3 +13,4 @@ public class Test {
 		xobj.printFileContent();		
 	}
 }
+//exceptions must be handled where they thrown

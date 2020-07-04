@@ -6,29 +6,33 @@ package OCA_Hepsi.V18.OCA223_Q1_60.q054;
 //	The void printToy (Toy t) method prints the details of a toy.
 // Which definition of the Toy class adds a valid layer of abstraction to the class hierarchy?
 
-/*
- A. public abstract class Toy{
- public abstract int calculatePrice(Toy t);
- public void printToy(Toy t) { /* code goes here }
- }
- 
- B. public abstract class Toy{
- public  int calculatePrice(Toy t);
- public void printToy(Toy t);
- }
- 
- C. public abstract class Toy{
- public  int calculatePrice(Toy t);
- public final void printToy(Toy t) { /* code goes here }
- }
- 
-D. public abstract class Toy{
- public abstract int calculatePrice(Toy t) { /* code goes here }
- public absract void printToy(Toy t) { /* code goes here }
- }
- 
- */
 
+// A.
+// public abstract class Toy{
+// public abstract int calculatePrice(Toy t);
+// public void printToy(Toy t) { /* code goes here*/ }
+// }
+ 
+// B.
+//public abstract class Toy{
+// public  int calculatePrice(Toy t);
+// public void printToy(Toy t);
+// }
+ 
+// C.
+//public abstract class Toy{
+// public  int calculatePrice(Toy t);
+// public final void printToy(Toy t) { /* code goes here*/ }
+// }
+ 
+//D.
+//public abstract class Toy{
+// public abstract int calculatePrice(Toy t) { /* code goes here */}
+// public abstract void printToy(Toy t) { /* code goes here */}
+// }
+ 
+
+//Ans A
 public class Q054 {
 
 }

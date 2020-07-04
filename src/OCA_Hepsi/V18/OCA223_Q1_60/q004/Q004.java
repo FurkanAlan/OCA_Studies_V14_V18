@@ -10,7 +10,8 @@ public class Q004 {
             idx++;                        // 1: idx = 0,   2: idx =1 ,
         } while (idx < size - 1);    // 1: idx =1,  	2: idx =2, (2<2) is false loop ends	--> The top element: 30
         System.out.println("The top element: " + stack[idx]);
-    }
+    } //do nun ozelligi geregi once degeri aliyor sonra islemi yapiyor, 2<2 false olmasina ragmen 2 degerini alip
+    // loop un disina tasidi
 }
 
 /*

@@ -1,36 +1,38 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q039;
 
-class Animal{
+class Animal {
 	String type = "Canine";
 	int maxSpeed = 60;
 
-	Animal() {}
+	Animal() {
+	}
 
-	Animal (String type, int maxSpeed) {
+	Animal(String type, int maxSpeed) {
 		this.type = type;
 		this.maxSpeed = maxSpeed;
 	}
 }
 
- 	class WildAnimal extends Animal{
- 		String bounds;
+class WildAnimal extends Animal {
+	String bounds;
 
- 		WildAnimal (String bounds) {
- 															// line n1	
- 		super(); // calls fields via non-parameter constructor of parent class	 ** if constructor is not created gives compilation error	**							
- 		this.bounds = bounds;													
-}
+	WildAnimal(String bounds) {
+		// line n1
+		super(); // calls fields via non-parameter constructor of parent class	 ** if constructor is not created gives compilation error	**
+		this.bounds = bounds;
+	}
 
- 		WildAnimal(String type, int maxSpeed, String bounds) {
- 			super(type, maxSpeed); 			// line n2
- 			this.bounds = bounds;
-																
-}
-public static void main(String[] args) {
-	WildAnimal wolf = new WildAnimal("Long");
-	WildAnimal tiger = new WildAnimal("Feline", 80, "Short");	
-	System.out.println(wolf.type + " " + wolf.maxSpeed + " " + wolf.bounds);
-	System.out.println(tiger.type + " " + tiger.maxSpeed + " " + tiger.bounds);
+	WildAnimal(String type, int maxSpeed, String bounds) {
+		super(type, maxSpeed);            // line n2
+		this.bounds = bounds;
+
+	}
+
+	public static void main(String[] args) {
+		WildAnimal wolf = new WildAnimal("Long");
+		WildAnimal tiger = new WildAnimal("Feline", 80, "Short");
+		System.out.println(wolf.type + " " + wolf.maxSpeed + " " + wolf.bounds);
+		System.out.println(tiger.type + " " + tiger.maxSpeed + " " + tiger.bounds);
 	}
 }
 /* 

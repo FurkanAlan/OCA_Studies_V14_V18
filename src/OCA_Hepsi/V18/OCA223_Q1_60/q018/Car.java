@@ -13,7 +13,7 @@ public class Car extends Vehicle {
 	String trans;
 	
 	Car(String trans){				// line n1
-//		super();
+//		super();  //
 		this.trans = trans;
 	}
 	Car(String type, int maxSpeed, String trans){

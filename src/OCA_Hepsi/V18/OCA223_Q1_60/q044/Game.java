@@ -4,38 +4,32 @@ package OCA_Hepsi.V18.OCA223_Q1_60.q044;
 import java.util.Scanner;
 
 public class Game {
-	public static void menu() {
-		System.out.println("1. Left 2. Right 0. Stop");
-	}
-	public static void main(String[] args) {
-		int option;
-		/* insert code here */
+    public static void menu() {
+        System.out.println("1. Left 2. Right 0. Stop");
+    }
 
+    static class Game2 {
+        public static void menu() {
+            System.out.println("1. Left 2. Right 0. Stop");
+        }
 
-	}
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            int option;
 
-
-	 static class Game2 {
-		public static void menu() {
-			System.out.println("1. Left 2. Right 0. Stop");
-		}
-		public static void main(String[] args) {
-			Scanner input = new Scanner(System.in);
-			int option;
-
-			do {
-				menu();
-				System.out.println("What is your choice?");
-				option = input.nextInt();
-				if (option == 1) {
-					System.out.println("You chose Left");
-				}else if (option == 2) {
-					System.out.println("You chose Right");
-				}
-			}while (option != 0);
-			System.out.println("Bye!");
-		}
-	}
+            do {
+                menu();
+                System.out.println("What is your choice?");
+                option = input.nextInt();
+                if (option == 1) {
+                    System.out.println("You chose Left");
+                } else if (option == 2) {
+                    System.out.println("You chose Right");
+                }
+            } while (option != 0);  //0 a esit olmadigi muddedce donguye devam et
+            System.out.println("Bye!");
+        }
+    }
 }
 //and the requirements of the application:
 // 	It must display the menu.
