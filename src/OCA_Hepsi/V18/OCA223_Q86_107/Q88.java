@@ -7,6 +7,7 @@ public class Q88 {
             System.out.print(x); //bu haliyle infinite loop olacak cunku while(true) oluyor ve surekli 6 yazdirir
         }
     }
+
     public static boolean isAvailable(int x) {
         return --x > 0 ? true : false;
 

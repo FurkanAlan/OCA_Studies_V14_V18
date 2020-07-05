@@ -19,7 +19,7 @@ class Shop {
 	public static void main(String[] args) {
 		
 		List<Product> lst = new ArrayList<>() ;
-		lst.add(new Product(10, "IceCream")); //st deil 1st. hata verince st cevirdim.
+		lst.add(new Product(10, "IceCream")); //1st deil 1st. hata verince lst cevirdim.
 		lst.add(new Product(11, "Chocolate"));
 		Product p1 = new Product(10, "IceCream"); //burada assign edilmedigi icin p1 den dolayi herhangi birsey yok
 		// eklenmedi

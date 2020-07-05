@@ -1,6 +1,5 @@
 package OCA_Hepsi.V18.OCA223_Q61_71;
 
-
 import java.io.IOException;
 
 class MyException extends RuntimeException {
@@ -18,8 +17,8 @@ public class Q_68 {
 
     public static void method1() { // line n1
         try {
-            throw 3 > 10 ? new MyException() : new IOException();
-        } catch (IOException ie) {
+            throw 3 > 10 ? new MyException() : new IOException(); //Burasi 10 > 3 olsaydi bu try-catch den cikamazdi
+        } catch (IOException ie) {                                //3>10 else calistirir, IO sonuc I, 10 > 3 sonuc B
             System.out.println("I");
         } catch (Exception re) {
             System.out.print("B");
@@ -39,23 +38,22 @@ public class Q_68 {
 
 //second way:
 
-//	        try {
-//	            method1();
-//	        }
-//	        catch(MyException ne){
-//	            System.out.print("A");
-//	        }
-//	    }
-
-//	    public static void method1(){ // line n1
-//	        try {
-//	            throw Math.random() > 0.5 ? new MyException() : new RuntimeException();
+//        try {
+//            method1();
+//        } catch (MyException ne) {
+//            System.out.print("A");
+//        }
+//    }
 //
-//	        } catch (RuntimeException re) {
-//	            System.out.print("B");
-//	        }
+//    public static void method1() { // line n1
+//        try {
+//            throw Math.random() > 0.5 ? new MyException() : new RuntimeException();
 //
-//	    }
+//        } catch (RuntimeException re) {
+//            System.out.print("B");
+//        }
+//
+//    }
 //}
 
 // Answer: B

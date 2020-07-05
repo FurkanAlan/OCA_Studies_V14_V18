@@ -52,6 +52,7 @@ public class Test {
 						Chloe : 40 : 5000
 
 
+        2. versiyon
 		ibrah note: this up
 	                setSalary down
 

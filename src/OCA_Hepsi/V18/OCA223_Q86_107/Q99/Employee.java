@@ -6,7 +6,11 @@ public class Employee {
 	private int age;
 	private int salary;
 
-public Employee (String name,int age) {
+//	public Employee() {
+//
+//	}
+
+	public Employee (String name, int age) {
 	setName (name);
 	setAge (age);
 	setSalary (2000);
@@ -16,14 +20,10 @@ public Employee (String name,int age) {
 }
 
 	public Employee (String name,int age,int salary) {
+
 		setSalary (salary);
 //		this(name,age);   //this üst satırda olursa hata vermez.
-
 	}
-
-//	public Employee() {
-//
-//	}
 
 
 	// getter and setter methods for attributes go here
