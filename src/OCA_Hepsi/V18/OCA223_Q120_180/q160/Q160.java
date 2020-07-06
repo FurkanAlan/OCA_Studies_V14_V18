@@ -4,10 +4,10 @@ public class Q160 {
 
     public static void main(String[] args) {
         int x;
-//        x = 0;
-//        do {
-//            System.out.print("*");
-//        } while (x++ < 3);
+        x = 0;
+        do {
+            System.out.print("*");
+        } while (x++ < 3);
 
 //        x = 3;
 //        do {

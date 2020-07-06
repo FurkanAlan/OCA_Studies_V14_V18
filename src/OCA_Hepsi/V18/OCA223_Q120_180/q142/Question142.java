@@ -1,22 +1,26 @@
 package OCA_Hepsi.V18.OCA223_Q120_180.q142;
 
+import java.util.Arrays;
+
 public class Question142 {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int wd = 0;
-        String days[] = {"sun", "mon", "wed", "sat"};
-        for (String s: days){
-            switch (s){
+        int wd = 0;
+        String[] days = {"sun", "mon", "wed", "sat"};
+        for (String s : days) {
+            switch (s) {
                 case "sat":
                 case "sun":
-                    wd-=1;
+                    wd -= 1;
                     break;
                 case "mon":
-                    wd-=1;
+                    wd -= 1;
                     break;
                 case "wed":
-                    wd+=2;
+                    wd += 2;
+//                default:
+//                    System.out.println(""+ Arrays.toString(days));
             }
         }
         System.out.println(wd);
@@ -33,25 +37,26 @@ D. -1
 *
 * */
 
-/**?????Sinavda farklisi cikmis monday den sonra break varmis o da sonucu -1 olarak degistiriyor yazilmis fakat ben deneyince 1 olarak degisiyor??????????????
- *   int wd = 0;
- *         String days[] = {"sun", "mon", "wed", "sat"};
- *         for (String s: days){
- *             switch (s){
- *                 case "sat":
- *                 case "sun":
- *                     wd-=1;
- *                     break;
- *                 case "mon":
- *                     wd++;
- *                     break;
- *                 case "wed":
- *                     wd+=2;
- *             }
- *         }
- *         System.out.println(wd);
- *     }
- *
+/**
+ * ?????Sinavda farklisi cikmis monday den sonra break varmis o da sonucu -1 olarak degistiriyor yazilmis fakat ben deneyince 1 olarak degisiyor??????????????
+ * int wd = 0;
+ * String days[] = {"sun", "mon", "wed", "sat"};
+ * for (String s: days){
+ * switch (s){
+ * case "sat":
+ * case "sun":
+ * wd-=1;
+ * break;
+ * case "mon":
+ * wd++;
+ * break;
+ * case "wed":
+ * wd+=2;
+ * }
+ * }
+ * System.out.println(wd);
+ * }
+ * <p>
  * }
  * /*
  * * What is the result?
@@ -60,5 +65,6 @@ D. -1
  * C. -1
  * D. Compilation fails.
  * Answer: C ??
- * * */
+ * *
+ */
 

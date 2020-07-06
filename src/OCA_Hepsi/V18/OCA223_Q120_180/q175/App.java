@@ -2,11 +2,12 @@ package OCA_Hepsi.V18.OCA223_Q120_180.q175;
 
 public class App {
 
-    int foo;
     static int bar; //global degisken oldugu icin degeri 0
+    int foo;
 
     static void process() {
-//        foo += 10;  //Compile error verir int foo; oldugu         icin, static int foo; --> Cevap: 10, 20
+//        foo += 10;  //Compile error verir int foo; oldugu, Non-static field 'foo' cannot be referenced from a static context
+        //         icin, static int foo; --> Cevap: 10, 20
         bar += 10;
     }
 
