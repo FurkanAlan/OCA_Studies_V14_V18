@@ -2,10 +2,10 @@ package OCA_Hepsi.V18.OCA223_Q120_180.q179;
 
 public class TTest {
 
-    int count = 0;
+    static int count = 0;
     int i = 0;
 
-    public void changeCount() {
+    public  void changeCount() {
         while (i < 5) {
             i++;  //i++ ile count++ yerleri degissede ayni sonuc 10:10 verir
             count++; //bunun degeri 0 dan 5 e gelir ve orada sabitlenir cunku static daha sonra birdaha dongu olur ve
@@ -21,7 +21,15 @@ public class TTest {
         TTest check1 = new TTest();
         TTest check2 = new TTest();
         check1.changeCount();
+
+        System.out.println(check1.count);
+        System.out.println(check1.i);
+
         check2.changeCount();
+
+        System.out.println(check1.count);
+        System.out.println(check2.i);
+
         System.out.println(check1.count + " : " + check2.count);
 
         //Answer--> 10 : 10
