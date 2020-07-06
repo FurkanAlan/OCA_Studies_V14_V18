@@ -9,7 +9,8 @@ public class Q107 {
     //java classname ve classin elemanlari/paramateres
 
     public static void main(String[] args) {
-        boolean a = new Boolean(Boolean.valueOf(args[0])); //iki deger alir icine string ve boolean
+        boolean a = new Boolean(Boolean.valueOf(args[0])); //iki deger alir icine string ve boolean, herhalukarda
+        // true yazmali
         boolean b = new Boolean(args[1]);
         System.out.print(a + " " + b);
     }

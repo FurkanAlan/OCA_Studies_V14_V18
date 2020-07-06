@@ -10,6 +10,5 @@ public class Q106 {
 //			D. Error is an Exception. 
 //			E. Error is a Throwable. 
 //			
-//			Answer:
-//				B C
+//			Answer: B E
 }

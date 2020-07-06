@@ -5,14 +5,14 @@ import java.time.LocalDate;
 public class Q105 {
 
 
-
 //Given the code fragment:
 
-public static void main(String[] args) {
-    LocalDate date = LocalDate.of(2012, 01,32);
-     date.plusDays(10);
-    System.out.println(date);
-}
+    public static void main(String[] args) {
+        LocalDate date = LocalDate.of(2012, 01, 32); //onemli bir husus, burada Compile hatasi verecek bir durum yok lakin
+        // program calsitinda exception verecek cunku maksimum gun 31 olabilir, java.time.DateTimeException: Invalid value for DayOfMonth (valid values 1 - 28/31): 32
+        date.plusDays(10);
+        System.out.println(date);
+    }
 
 		/* What is
 		the result?

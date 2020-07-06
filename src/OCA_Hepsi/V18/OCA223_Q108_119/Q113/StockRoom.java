@@ -1,14 +1,16 @@
 package OCA_Hepsi.V18.OCA223_Q108_119.Q113;
 
+//bu sorudaki hassas nokta statik olan bir ifade ve olmayan arasindaki baglanti, statik olan bir metod olmayan qty,
+// yada stok u cagiramaz ondan dolayi eger bu iki ifade statik olmazsa hata sebep olur birde printStock olmasi yeterli
 public class StockRoom {
     private static int stock = 10;
     private static int qty;
 
-    public  void purchase(int qty) {
+    public void purchase(int qty) {
         stock += qty;
     }
 
-    public  void sell(int qty) {
+    public void sell(int qty) {
         stock -= qty;
     }
 
