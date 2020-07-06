@@ -14,11 +14,14 @@ public class Q126 {
 //        }
 
 //B.
-//        do {
-//            x--;
-//            System.out.print(array[x]);//ArrayIndexOutOfBoundsException
-//            //Index -1 out of bounds for length 5, do nun ozelligi aldigi sayiyi sout a iletiyor
-//        } while (x >= 0);
+        do {
+            x--;
+            System.out.print(array[x]);//ArrayIndexOutOfBoundsException
+            //Index -1 out of bounds for length 5, do nun ozelligi aldigi sayiyi sout a iletiyor
+            // array[x] = java.lang.IndexOutOfBoundsException : Invalid array range: 5 to 5, zaten ilk aldigi degerde
+            // bile hata veriyor
+            //array.length = 5
+        } while (x >= 0);
 
 
 //C.

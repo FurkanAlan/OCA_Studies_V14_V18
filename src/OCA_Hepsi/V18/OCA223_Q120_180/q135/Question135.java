@@ -11,7 +11,7 @@ class Planet {
         this.moons = moons;
     }
 //	public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
-//		return name+moons;
+//		return name+ " : " +moons;
 //	}
 }
 

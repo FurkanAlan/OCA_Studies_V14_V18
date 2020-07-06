@@ -16,10 +16,10 @@ public class Question134 {
 //abstract class A3 {
 //    private static int i;
 //
-//    public void doStuff() {
+//    public A3() {
 //    }
 //
-//    public A3() {
+//    public void doStuff() {
 //    }
 //}
 

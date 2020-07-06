@@ -4,7 +4,7 @@ public class Question132 {
 
     public static void main(String[] args) {
 
-        int[][] arr = new int[2][4]; //burada ArrayIndexOutOfBoundsException sebep olan ilk dizi ifadesi [2],
+        int[][] arr = new int[2][5]; //burada ArrayIndexOutOfBoundsException sebep olan ilk dizi ifadesi [2],
         // eger 3 olsa exception vermez, cunku bu uzunlugu belirliyor
         arr[0] = new int[]{1, 3, 5, 7};
         arr[1] = new int[]{1, 3};

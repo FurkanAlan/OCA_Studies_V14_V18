@@ -4,12 +4,12 @@ public class Question140 {
 	        int iVar = 100;
 	        float fVar = 100.100f;
 	        double dVar = 123;
-//	          fVar = iVar;
-//	          iVar = fVar;
-//	          fVar = dVar;
-//	          dVar = fVar;
-//	          iVar = dVar;
-//	          dVar = iVar;
+//			fVar = iVar;
+//			iVar = fVar;
+//			fVar = dVar;
+//			dVar = fVar;
+//			iVar = dVar;
+//			dVar = iVar;
 	        /*
 	        Second Version
 	        the question was same but number of lines was changed.

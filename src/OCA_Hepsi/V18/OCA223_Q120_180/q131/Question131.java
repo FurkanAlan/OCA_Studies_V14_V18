@@ -11,7 +11,7 @@ class Vehicle {
     int x;
 
     Vehicle() {
-        this(10);// line n1
+        this(10);// line n1, bu ifade burada bulunan x degerini 10 yapar,
     }
 
     Vehicle(int x) {
@@ -27,7 +27,8 @@ class Car extends Vehicle {
     }
 
     Car(int y) {
-        super(y);
+        super(y); //burada y oldugu icin parent deki tek parametreli olan contructor u cagirrir , eger burada
+        // herhangi bir deger olmasaydi parent deki icinde parametre olmayan constructor u cagiracakti
         this.y = y;
     }
 
