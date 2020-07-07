@@ -2,8 +2,14 @@ package OCA_Hepsi.V18.OCA223_Q204_223.Q207;
 
 public class Q207 {
     public static void main(String[] args) {
-        int[][] arr = new int[2][4];
-
+        int[][] arr = new int[2][4]; //Batsaki sayi 3 oldugunda
+//1
+//3
+//5
+//
+//1
+//3
+//Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2 sonucunu veriyor cunku 2. index olusturulmamis
         arr[0] = new int[]{1, 3, 5, 7};
         arr[1] = new int[]{1, 3};
 

@@ -6,7 +6,7 @@ import java.util.List;
 public class Q221 {
     public static void main(String[] args) {
         List colors=new ArrayList();
-        colors.add("green");
+        colors.add("green"); //aslinda bunun manasi 0. index e green elemannini yerlestir demektir
         colors.add("blue");
         colors.add("red");
         colors.add("yellow");

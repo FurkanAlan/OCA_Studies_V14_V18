@@ -14,4 +14,4 @@ public class MainTest {
 //        B. An exception is thrown at runtime
 //        C. String main 1 2 3
 //        D. String main 123
-//        Answer: A diyo ama C cikti
+//        Answer:  C

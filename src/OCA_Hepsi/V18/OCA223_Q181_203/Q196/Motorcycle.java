@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Motorcycle   {
     public static void main(String[] args) {
-        ArrayList<Cycle> myList = new ArrayList<>();
+        ArrayList<Cycle> myList = new ArrayList<>(); //<> parentezin icersindeki Parent oluyor ve new Motorcycle()
+        // ise child oluyor
 //        myList.add(new Motorcycle());
     }
 

@@ -13,19 +13,22 @@ public class App {
             obj.open();
             obj.process();
             //insert code here
-        } catch (Exception e) {
+        } catch (Exception e) { // eger 30. satirdaki, throw new AccessViolationException(); silersem bana catch
+            // dekini de yaziracak
             System.out.println("completed.");
         }
     }
 
-    public void process() throws LogFileException {
+    public void process() throws LogFileException { //Exception ciktigi yerde giderilmeli yani metodda da throw
+        // yapilmali yada try-catch diger turlu Unhandled exception: OCA_Hepsi.V18.OCA223_Q204_223.Q215
+        // .LogFileException hatasi veriyor Complie hatasi ,add exception method signature yapilmasi geriyor
         System.out.println("Processed");
         throw new LogFileException();
     }
 
-    public void open() {
+    public void open() { //ancak Runtime daha farkli ,add exception method signature yapilmasi gerekmiyor (emin degilim)
         System.out.println("Opened.");
-        throw new AccessViolationException();
+        throw new AccessViolationException(); //yukarida try catch oldugu icin Runtime bu sekilde giderilebiliyor
     }
 }
 //    Which action fixes the compiler error?
@@ -33,4 +36,4 @@ public class App {
 //        B. At line 13, add throws LogFileException
 //        C. At line 2, replace throws LogFileException with throws AccessViolationException
 //        D. At line 7, insert throw new LogFileException ();
-//Answer: D
+//Answer: B

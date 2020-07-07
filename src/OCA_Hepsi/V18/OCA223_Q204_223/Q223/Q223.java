@@ -2,12 +2,12 @@ package OCA_Hepsi.V18.OCA223_Q204_223.Q223;
 
 public class Q223 {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4};
-        int i=0;
-        do {
-            System.out.println(arr[i]+" ");
+        int[] arr = {1, 2, 3, 4};
+        int i = 0;
+        do {  //i++; ilk sirada olursa 1. index elemani olan 2 den baslar
+            System.out.println(arr[i] + " ");
             i++;
-        }while(i<arr.length+1);
+        } while (i < arr.length + 1);
 
     }
 }
@@ -16,6 +16,6 @@ A. 1 2 3 4followed by an ArrayIndexOutOfBoundsException
 B. 1 2 3
 C. 1 2 3 4
 D. Compilation fails.
- Answer: B  diyor ama cevap A  aciklamsinda Console 8 9 10 farkli demis
+ Answer:  A  aciklamsinda Console 8 9 10 farkli demis
 
  */

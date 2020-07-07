@@ -16,7 +16,7 @@ class Student {
 class Test {
     public static void main(String[] args) {
 
-        Student[] students = new Student[3];
+        Student[] students = new Student[3]; // 0. index olusturulmamis
 ////      students[0] = new Student("Ali");
         students[1] = new Student("Richard");
         students[2] = new Student("Donald");

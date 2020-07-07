@@ -4,22 +4,22 @@ abstract class Toy {
     int price;
     //line n1;
 
-    public static void insertToy(){
+    public static void insertToy(){ //abstract da static metod yazilabilir
         /*  code goes here  */
     }
 
 
 //    final Toy getToy(){
-//        return new Toy();
+//        return new Toy();  //'Toy' is abstract; cannot be instantiated, bu secenek yanlis
 //    }
 
-//    public void printToy();
+//    public void printToy();  //Missing method body, or declare abstract, yanlis
 
-    public int calculatePrice(){
+    public int calculatePrice() { // bu bir public ,etod oldugu icin body si var ve return olabilir
         return price;
     }
 
-    public abstract int computeDiscount();
+    public abstract int computeDiscount(); //abstract class da abstract metod yazilabilir ve metod body olmamali, dogru
 
 }
 
