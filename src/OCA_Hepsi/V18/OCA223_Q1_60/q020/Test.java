@@ -10,7 +10,7 @@ public class Test {
 	}
 	public static void main(String[] args) {
 		Test item = new Test();
-		item.a1 = 11;
+		item.a1 = 11;  // eger burasi olmasaydi global degisken olan a1 degerini alirdi o da 0
 		String sb = "Hello";
 		Integer i = 10;
 		doProduct(i);

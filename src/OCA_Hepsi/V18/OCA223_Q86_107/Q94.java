@@ -6,7 +6,8 @@ public class Q94 {
 }
 
 class Person {
-    String name;
+    String name; //eger ikinci metod calissaydi, Person p2 = new Person("Walter", 52); Walter buraya gelemezdi ve
+    // name olarak null degerini alirdi
     int age = 25;
 
     //    Person person = new Person("Ali");
@@ -15,8 +16,13 @@ class Person {
     }
 
     public Person(String name, int age) {    // line n2
-//         Person(name); //bu bir metod oldugu icin, metodun cagrilmasi bekleniyor new anahtar kelimesiyle
+         new Person(name); //bu bir metod oldugu icin mi yoksa contructor oldugu icin mi, metodun cagrilmasi bekleniyor
+//         new anahtar kelimesiyle
 //        person.
+        //burada setName(name) olmadigi icin bu constructor un icindeki name kismi alinamiyor ve new Person(name),
+        // new keyword olup calissaydi tek parametreli contructor u cagiracak ve ona islem yaptiracak, name kismina
+        // herhangi birsey atanmamis oldugundan dolayi global olan name degerini alir ona da deger atanmadigi icin
+        // null olur
         setAge(age);
     }
 

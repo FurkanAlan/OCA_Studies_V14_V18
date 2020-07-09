@@ -30,3 +30,4 @@ public class ReportTool extends Tool implements Exportable {
 //C.	Tool::exportTool:export
 //D.	Compilation fails only at line n1.
 //E.	Compilation fails at both line n1 and line n2.
+//Ans D

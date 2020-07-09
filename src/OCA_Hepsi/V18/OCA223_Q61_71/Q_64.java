@@ -5,7 +5,7 @@ package OCA_Hepsi.V18.OCA223_Q61_71;
 
 //package p1;
 class MyString {
-    String msg;
+    String msg; //bu ifade msg yi String turunden declation etmektir eger object olsaydi ozaman adi initializer olurdu
     MyString(String msg){
         this.msg =msg;
 
@@ -18,9 +18,10 @@ class MyString {
 //package p1;
 public class Q_64 {
     public static void main(String[] args) {
-        System.out.println("Hello "+ new StringBuilder("Java SE 8"));
-        System.out.println("Hello "+ new MyString("Java SE 8")); 
-        //System.out.println("Hello "+ new MyString("Java SE 8").msg); //soruda .msg yok. O durumda hush code yazdirir
+        System.out.println("Hello "+ new StringBuilder("Java SE 8")); // bunun anlami System.out.println("Hello "+ "Java SE 8")
+        System.out.println("Hello "+ new MyString("Java SE 8"));  // aslinda this.msg =msg; buraya kadar msg ye Java
+        // SE 8 degerini atiyorsun lakin bu degeri cagirmiyorsun
+        //System.out.println("Hello "+ new MyString("Java SE 8").msg); //soruda .msg yok. O durumda hash code yazdirir
 
     }
 }

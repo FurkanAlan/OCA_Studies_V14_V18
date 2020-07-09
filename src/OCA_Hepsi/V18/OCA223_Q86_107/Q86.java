@@ -23,6 +23,7 @@ class C extends A {
 
     }
 
+
     public static void main(String[] args) {
         A b1 = new A();
         A b2 = new C();  //A b2 = new A(); burasi bu sekilde olursa CastException veriyor, C b2 = new C(); oldugunda

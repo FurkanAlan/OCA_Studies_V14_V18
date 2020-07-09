@@ -23,7 +23,7 @@ public class Test extends Acc {
 
 	//Protected is inheritable to sub class (outside the package) so there for if
 	// the sub class’ object was created then you could access to the protected variable.
-	// But the object was created from super class
+	// But the object was created from super class so you can only access to public variable
 	        //Test obj = new Test();
 	        //        obj.s = 4;
 	        //        obj.r = 5;

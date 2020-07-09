@@ -1,21 +1,25 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q027;
 
 public class CheckingAccount {
-	public int amount;
-	// line n1
+    public int amount;
+    // line n1
 //	public CheckingAccount(){
 //		amount = 100;
 //	}
 
 
+//	public CheckingAccount(){
+//		this.amount = 100;
+//	}
 
 }
 
-class Test{
-	public static void main(String[] args) {
-		CheckingAccount acc = new CheckingAccount();
-		System.out.println(acc.amount);
-	}
+class Test {
+    public static void main(String[] args) {
+        CheckingAccount acc = new CheckingAccount();
+//        acc.amount = 100;
+        System.out.println(acc.amount);
+    }
 }
 
 /*

@@ -29,6 +29,7 @@ public class Q_66 {
         I obj2 = new C11(); //obj2 interface turunden bir degisken ve C1 e objesine referans yapiliyor.
 
         C22 s = (C22) obj2; //eger Cast C22 kaldirlirsa, Required type:C22 Provided:I, Compile hatasi veriyor
+        //belki bunu C22 s = (C22) (I) (C11) obj2; sekilde de dusunulebilir
         I t = obj1;         //alt (C22 veya C11) dan uste (I) gidildigi zaman Cast gerekli, diger turlu hata verir
         //Mesela burada Cast olmasaydi Interface de olustu
         //t obj1 referans yapiyor ve obj1 ise C1 objesine referans yapiyor t.displayI da C1 sinifi

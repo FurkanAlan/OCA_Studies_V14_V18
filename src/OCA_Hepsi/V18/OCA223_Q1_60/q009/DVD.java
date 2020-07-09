@@ -13,8 +13,9 @@ public class DVD extends CD {
 
     DVD(int r, int c) {
         // line n1
-		super(r);
-//        super.r = r;
+		super(r);  //bunun manasi parent e git ve oradaki tek parametreli olan contructor u kullan ve parametre
+        // degerini de r olarak kullan => 10
+//        super.r = r;  //bunun olabilmesi icin bizim CD class inda bos bir constructor umuz olmali
         this.c = c;
     }
 

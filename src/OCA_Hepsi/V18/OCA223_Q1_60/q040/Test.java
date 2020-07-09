@@ -1,10 +1,14 @@
 package OCA_Hepsi.V18.OCA223_Q1_60.q040;
 
+import java.util.Arrays;
+
 public class Test {
 
     public static void main(String[] args) {
         int numbers[] = {12, 13, 42, 32, 15, 156, 23, 51, 12};
         int[] keys = findMax(numbers);            // 1. object is not created to invoke the method, so method should be:     static____findMax();{
+        System.out.println(""+ Arrays.toString(keys));
+        //string, stringbuilder => lenght     // list => size
     }
 
     /* line n1 */

@@ -15,7 +15,10 @@ class Test {
         //System.out.println(chs[1].length);
 
         for (int a = 0; a < chs.length; a++) {
-            for (int b = 0; b < chs[a].length; b++) {
+            for (int b = 0; b < chs[a].length; b++) {  //aslinda hataya sebep olan ikinci for loop dongusudur cunku
+                // bizden b < chs.length yani b < 5 0-4 e kadar olan degerleri yerlestirmemizi istiyor lakin ilki
+                // array in uzunlugu chs[0] = new String[2]; 2 olarak tanimlanmis 2 bosluga 5 eleman
+                // yerlestirilemiyeceginden dolayi ArrayIndexOutOfBoundsException sonucunu veriyor
                 chs[a][b] = " " + i;
                 i++;
 

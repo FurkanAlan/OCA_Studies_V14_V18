@@ -10,10 +10,12 @@ public class Q97 {
       //System.out.println(s);
       if (sb.toString().equals(s.toString())){ //StringBuilder classinda equals methodu yok, bundan dolayi tostring ile string e cevirmemiz lazim
           System.out.println("Match 1");
-      }else if(sb.equals(s)){
+      }else if(sb.equals(s)){  //'equals()' between objects of inconvertible types 'StringBuilder' and 'String'
           System.out.println("Match 2");
       }else {
           System.out.println("No Match");
+
+          //eger iki sardda da dogru varsa ilk olani alir
 //      
 
 	}
