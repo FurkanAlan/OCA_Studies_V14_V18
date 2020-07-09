@@ -3,6 +3,8 @@ package OCA_Hepsi.V18.OCA223_Q108_119.Q115;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+//Date ile ilgili cikan problemler Runtime yani sadece exception verir, programin calismasina engel olmaz yani
+// compile haasi vermez sadece program calistihgi zaman runtime olur
 public class Q115 {
     public static void main(String[] args) {
         LocalDate date1=LocalDate.now();

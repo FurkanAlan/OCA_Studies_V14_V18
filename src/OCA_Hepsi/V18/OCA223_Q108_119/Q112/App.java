@@ -1,7 +1,7 @@
 package OCA_Hepsi.V18.OCA223_Q108_119.Q112;
 
 public class App {
-    int count;
+    static int count = 1; //tum vezu statik olmamasi veya cagiran metod un statik olmasi
 //    public static void displayMsg(){ //problem bu metodun statik olmasi, count ise degil
 //        count++;                                         //line1
 //        System.out.println("Welcome"+"Visit Count"+count); //line2
