@@ -8,5 +8,3 @@ public class Acc {
 	    protected int r; //visible from different package via inheritance only!
 	    public int s;   // visible in universe
 	}
-
-
