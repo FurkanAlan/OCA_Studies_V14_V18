@@ -1,6 +1,6 @@
 package OCA_Hepsi.V18.OCA223_Q181_203.Q188;
 
-public class CheckingAccount {
+ public class CheckingAccount {
     public int amount;                            //instanse variable // to call instance we can call trough the object
 
     public CheckingAccount(int amount) {
@@ -26,9 +26,9 @@ class Test11{
        CheckingAccount acct = new CheckingAccount((int)(Math.random()*1000)); //Math.rondom() rondom bir rakam olustururyor.
        // line n1
 //         acct.setAmount(-acct.getAmount());
-        acct.amount = 0;
+//        acct.amount = 0;
 //        acct.setAmount(0);
-//        acct.getAmount()=0; //variable expected
+//        acct.getAmount() =0; //variable expected
 //        this.amount = 0; //cannot be referenced from static content
 //        acct.changeAmount(0);
 //        acct.changeAmount(-acct.amount);

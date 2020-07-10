@@ -1,6 +1,6 @@
 package OCA_Hepsi.V18.OCA223_Q120_180.q123;
 
-public class App {
+public class App<st> {
 
     String myStr = "9009"; //global variable
 
@@ -25,4 +25,5 @@ public class App {
         }
         System.out.println("myStr: " + myStr + ", myNum: " + myNum);
     }
+//    st //type parameter
 }

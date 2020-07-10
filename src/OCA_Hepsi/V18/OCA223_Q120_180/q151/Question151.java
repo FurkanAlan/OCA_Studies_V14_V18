@@ -5,8 +5,8 @@ public class Question151 {
 
 class Alpha {
 
-    int ns;
     static int s;
+    int ns;
 
     Alpha(int ns) {
         if (s < ns) {
@@ -14,6 +14,7 @@ class Alpha {
             this.ns = ns;
         }
     }
+
 
     void doPrint() {
         System.out.println("ns = " + ns + " s = " + s);

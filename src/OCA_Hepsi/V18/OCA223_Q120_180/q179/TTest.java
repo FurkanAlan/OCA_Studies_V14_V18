@@ -3,7 +3,8 @@ package OCA_Hepsi.V18.OCA223_Q120_180.q179;
 public class TTest {
 
     static int count = 0;
-    int i = 0;
+     int i = 0; //eger static i de olsaydi ve while(i<5) seklinde kalsaysi dongu sadece bir defa donecikti 5<5
+    // icin
 
     public  void changeCount() {
         while (i < 5) {
@@ -35,3 +36,23 @@ public class TTest {
         //Answer--> 10 : 10
     }
 }
+
+//class TextX{
+//    public static void main(String[] args) {
+//        TTest check1 = new TTest();
+//        TTest check2 = new TTest();
+//        check1.changeCount();
+//
+////        System.out.println(check1.count);
+//        System.out.println(check1.i);
+//
+//        check2.changeCount();
+//
+////        System.out.println(check1.count);
+//        System.out.println(check2.i);
+//
+//        System.out.println(check1.i + " : " + check2.i);
+//
+//        //Answer--> 10 : 10
+//    }
+//}

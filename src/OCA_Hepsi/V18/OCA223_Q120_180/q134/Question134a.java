@@ -45,10 +45,13 @@ public class Question134a {
 //	}
 //
 //		//E -->  class can be final or abstract, not both of them
-//		final abstract class A5 {
-//	    protected static int i;
-//	    void doStuff() { }
-//	    abstract void doIt();
+//	final abstract class A5 {
+//		protected static int i;
+//
+//		void doStuff() {
+//		}
+//
+//		abstract void doIt();
 //	}
 //
 //
