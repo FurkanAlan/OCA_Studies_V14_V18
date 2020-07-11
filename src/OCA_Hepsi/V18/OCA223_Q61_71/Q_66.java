@@ -1,6 +1,8 @@
 package OCA_Hepsi.V18.OCA223_Q61_71;
 
 
+import java.util.Arrays;
+
 interface I {
     public void displayI();
 }
@@ -47,3 +49,13 @@ public class Q_66 {
 //D. C2C2
 //Answer: A
 
+//class TextXX{
+//    public static void main(String[] args) {
+////        System.out.println("The arguman testing1: " + Arrays.toString(args));
+//        System.out.println("The arguman testing2: " +Arrays.toString(args).length());
+//        System.out.println("The arguman testing3: " +args[0]);
+//        System.out.println("The arguman testing4: " +args[0].length());
+//        System.out.println("The arguman testing5: " +args[3]);
+//        System.out.println("The arguman testing6: " +args[3].length());
+//    }
+//}

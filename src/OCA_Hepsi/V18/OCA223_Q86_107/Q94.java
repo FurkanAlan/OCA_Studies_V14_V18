@@ -16,7 +16,7 @@ class Person {
     }
 
     public Person(String name, int age) {    // line n2
-         new Person(name); //bu bir metod oldugu icin mi yoksa contructor oldugu icin mi, metodun cagrilmasi bekleniyor
+         new Person(name); //bu bir contructor oldugu, metodun cagrilmasi bekleniyor
 //         new anahtar kelimesiyle
 //        person.
         //burada setName(name) olmadigi icin bu constructor un icindeki name kismi alinamiyor ve new Person(name),

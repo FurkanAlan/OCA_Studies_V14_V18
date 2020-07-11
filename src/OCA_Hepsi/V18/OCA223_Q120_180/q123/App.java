@@ -20,7 +20,9 @@ public class App<st> {
             myNum = Integer.parseInt(myStr);
         }  //buradaki myNum degeri guncelleniyor ve 7007 olarak sout a deger olarak gidiyor
 
-        catch (NumberFormatException ne) {
+        catch (NumberFormatException ne) {   //buranin calismasi icin try{} blokdaki kodun NumberFormatException
+            // vermesi gerekiyor o takdirde catch{} blok calisiyor ve sout olarak bize Error yazdiriyor yani sonuc
+            // Error myStr: 9009, myNum: 0 olurdu
             System.err.println("Error");
         }
         System.out.println("myStr: " + myStr + ", myNum: " + myNum);

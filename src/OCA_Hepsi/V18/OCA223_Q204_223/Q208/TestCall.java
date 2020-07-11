@@ -6,9 +6,13 @@ class Caller {
     }
 
     private void start() {
+//        Caller();  //Method call expected
         init();
         System.out.println("Started");
     }
+//    public Caller() {
+//
+//    }
 }
 
 public class TestCall { //private diger class dan metodla cagirilamiyor metodlari private oldug icin ulasilamiyor,

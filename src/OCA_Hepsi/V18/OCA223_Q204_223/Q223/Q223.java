@@ -5,8 +5,10 @@ public class Q223 {
         int[] arr = {1, 2, 3, 4};
         int i = 0;
         do {  //i++; ilk sirada olursa 1. index elemani olan 2 den baslar
-            System.out.println(arr[i] + " ");
+//            System.out.println(arr[i] + " ");
+//            System.out.println(i);
             i++;
+            System.out.println(i);
         } while (i < arr.length + 1);
 
     }

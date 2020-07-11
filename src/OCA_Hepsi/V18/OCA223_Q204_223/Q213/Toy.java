@@ -15,7 +15,7 @@ abstract class Toy {
 
 //    public void printToy();  //Missing method body, or declare abstract, yanlis
 
-    public int calculatePrice() { // bu bir public ,etod oldugu icin body si var ve return olabilir
+    public int calculatePrice() { // bu bir public ,metod oldugu icin body si var ve return olabilir
         return price;
     }
 
@@ -27,12 +27,14 @@ abstract class Toy {
 //A.  public static void insertToy(){
 //        /*  code goes here  */
 //    }
-//B.  final Toy getToy(){
-//        return new Toy();
+//B.  f
+// final Toy getToy(){
+//        return new Toy();  //'Toy' is abstract; cannot be instantiated
 //    }
 //C.  public void printToy();
-//D.  public int calculatePrice(){
-//        returnprice;
+//D.
+// public int calculatePrice(){
+//        return price;
 //    }
 //E. public abstract int computeDiscount();
 //    A. Option A
@@ -40,4 +42,4 @@ abstract class Toy {
 //    C. Option C
 //    D. Option D
 //    E. Option E
-//Answer: C D E
+//Answer: A D E

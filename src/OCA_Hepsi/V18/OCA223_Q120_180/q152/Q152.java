@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 
+
 public class Q152 {
     public static void main(String[] args) {
         List<String> lst = Arrays.asList("A", "B", "C", "D");
