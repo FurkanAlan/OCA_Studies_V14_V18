@@ -24,7 +24,7 @@ public class Peacock extends Bird {
 
 //C, burada da child objesi var
 //        Peacock b = new Peacock();
-//        Bird p = (Bird) b;
+//        Bird p = b;
 
 //D	==> dogru cevap
         Bird b = new Peacock();         //======>|| B -> P

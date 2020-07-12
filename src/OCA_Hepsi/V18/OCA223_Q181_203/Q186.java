@@ -8,6 +8,8 @@ class S1 {
         System.out.println("Parent" + x);
     }
 }
+//active polymorphism
+//static binding?
 
 class S2 extends S1 {
     public void display(int x, int y) {

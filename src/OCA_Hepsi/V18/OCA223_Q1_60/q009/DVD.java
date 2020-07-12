@@ -6,6 +6,10 @@ class CD {
     CD(int r) {
         this.r = r;
     }
+
+
+//    CD() {
+//    }
 }
 
 public class DVD extends CD {
@@ -21,6 +25,7 @@ public class DVD extends CD {
 
     public static void main(String[] args) {
         DVD dvd = new DVD(10, 20);
+        System.out.println(dvd.c+  " : " + dvd.r);
     }
 }
 /*

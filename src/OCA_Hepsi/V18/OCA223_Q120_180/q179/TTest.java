@@ -23,13 +23,13 @@ public class TTest {
         TTest check2 = new TTest();
         check1.changeCount();
 
-        System.out.println(check1.count);
-        System.out.println(check1.i);
+//        System.out.println(check1.count);
+//        System.out.println(check1.i);
 
         check2.changeCount();
 
-        System.out.println(check1.count);
-        System.out.println(check2.i);
+//        System.out.println(check1.count);
+//        System.out.println(check2.i);
 
         System.out.println(check1.count + " : " + check2.count);
 

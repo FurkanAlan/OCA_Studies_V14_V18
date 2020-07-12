@@ -1,7 +1,7 @@
 package OCA_Hepsi.V18.OCA223_Q120_180.q169.clothing.pants;
 
 //line n1
-import OCA_Hepsi.V18.OCA223_Q120_180.q169.clothing.Shirt;
+//import OCA_Hepsi.V18.OCA223_Q120_180.q169.clothing.Shirt;
 
 
 import static OCA_Hepsi.V18.OCA223_Q120_180.q169.clothing.Shirt.getColor;

@@ -11,23 +11,23 @@ public class CCMask {
 ////        return x + s;
 //        return x + sb;
 
-//        return x + creditCard.substring(15, 19);  //-->Answer B
+        return x + creditCard.substring(15, 19);  //-->Answer B3
 
 //        StringBuilder sb = new StringBuilder(x); //--> Answer C
 //        sb.append(creditCard, 15, 19);
 //
-////        StringBuilder sv = sb.append(creditCard, 15, 19);
-////        System.out.println(sv);
+//     //   StringBuilder sv = sb.append(creditCard, 15, 19);
+//      //  System.out.println(sv);
 
 //        return sb.toString();
 
         //    D
-        StringBuilder sb = new StringBuilder(creditCard);
-        StringBuilder s = sb.insert(0,x);
-
+//        StringBuilder sb = new StringBuilder(creditCard);
+//        StringBuilder s = sb.insert(0,x);
+//
 //        StringBuilder sb = new StringBuilder(x);
 //        StringBuilder s = sb.insert(15,creditCard.substring(15,19));
-        return s.toString();
+//        return s.toString();
     }
 
 

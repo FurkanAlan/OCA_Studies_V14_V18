@@ -5,6 +5,7 @@ public class Q184 {
     private double heigth;
     private double area;
 
+
     public void setLength(double length){
         this.length = length;
 
@@ -14,14 +15,16 @@ public class Q184 {
 
     }
 
+
     public void setArea(){
         area = length*heigth;
     }
 
-//    public static void main(String[] args) {
-//        Q184 alan = new Q184();
-//        System.out.println(alan.area);
-//    }
+
+    public static void main(String[] args) {
+        Q184 alan = new Q184();
+        System.out.println(alan.area);
+    }
 
 }
 /*

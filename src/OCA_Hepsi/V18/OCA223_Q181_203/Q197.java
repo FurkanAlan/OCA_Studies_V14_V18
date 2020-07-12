@@ -42,7 +42,10 @@ class methodField {
     }
 }
 
+
+
 //D. A class can have overloaded static methods. , dogru
+//ancak, override static final private olamiyor
 class overloadedStatic {
     public static void methodOverloading() {
 

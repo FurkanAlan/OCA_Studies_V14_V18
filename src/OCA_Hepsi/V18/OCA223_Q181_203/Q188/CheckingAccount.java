@@ -1,7 +1,8 @@
 package OCA_Hepsi.V18.OCA223_Q181_203.Q188;
 
- public class CheckingAccount {
-    public int amount;                            //instanse variable // to call instance we can call trough the object
+public class CheckingAccount {
+    public int amount;                            //instanse variable // to call instance we can call trough the
+    // object
 
     public CheckingAccount(int amount) {
         this.amount = amount;
@@ -21,10 +22,10 @@ package OCA_Hepsi.V18.OCA223_Q181_203.Q188;
     }
 }
 
-class Test11{
+class Test11 {
     public static void main(String[] args) {
-       CheckingAccount acct = new CheckingAccount((int)(Math.random()*1000)); //Math.rondom() rondom bir rakam olustururyor.
-       // line n1
+        CheckingAccount acct = new CheckingAccount((int) (Math.random() * 1000)); //Math.rondom() rondom bir rakam olustururyor.
+        // line n1
 //         acct.setAmount(-acct.getAmount());
 //        acct.amount = 0;
 //        acct.setAmount(0);

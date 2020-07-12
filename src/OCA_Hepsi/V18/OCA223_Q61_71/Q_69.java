@@ -15,10 +15,26 @@ class Test {
         //System.out.println(chs[1].length);
 
         for (int a = 0; a < chs.length; a++) {
-            for (int b = 0; b < chs[a].length; b++) {  //aslinda hataya sebep olan ikinci for loop dongusudur cunku
-                // bizden b < chs.length yani b < 5 0-4 e kadar olan degerleri yerlestirmemizi istiyor lakin ilki
+            for (int b = 0; b < chs.length; b++) {  //aslinda hataya sebep olan ikinci for loop dongusudur cunku
+                // bizden b < chs.length yani b < 5 0-4 e kadar olan degerleri yerlestirmemizi istiyor lakin ilk
                 // array in uzunlugu chs[0] = new String[2]; 2 olarak tanimlanmis 2 bosluga 5 eleman
                 // yerlestirilemiyeceginden dolayi ArrayIndexOutOfBoundsException sonucunu veriyor
+
+                //chs.length ifadesi chs[a].length seklinde yazilsaydi herhangi bir hata vermezdi cunku bu ifadenin
+                // manasi 1 bosluga bir sayi yazdir demek,
+                //chs[0] = new String[2]; iki boslugu oldugu icin sadece  97  98  sayilarini yerlestirir
+                //chs[1] = new String[5];  99  100  101  102  103 sayilarini yerlestirir 5 boslugu oldugu icin
+                //her ne kadar burada chs[2], chs[3], chs[4] yazilmamis olsa da aslinda onlarda var
+                //cunku biz ilk olarak arrayi olustururken String[][] chs = new String[5][2] kullandik bundan dolayi
+                //chs[2]  dizisine  104  105 sayilari gelir cunku [5][2] 5 toplam uzunlugu veriyor, ve satir sayisi 2
+                // yada diger adiyla kolom sayisini veriyor
+
+                // buradaki ifade de ise chs[1] = new String[5]; biz sonradan degisiklik yaptigimiz icin
+                // 5 elemani oluyor 1. index in veya uzunluk olarak dusunlurse 2. dekinin alabilecegi eleman sayisi
+
+                //chs[3]  dizisine   106  107  sayilari gelir
+                //chs[4]  dizisine    108  109   sayilari gelir bu sekilde tum dizinin bosluklarina sayilar
+                // yerlestirilmis olur
                 chs[a][b] = " " + i;
                 i++;
 
