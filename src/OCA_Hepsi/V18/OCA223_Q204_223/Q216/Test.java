@@ -10,6 +10,11 @@ public class Test {
         product.price = product.price + price;
     }
 
+//    public static void main(String[] args) {
+//        Product product = new Product();
+//        System.out.println(product.price);
+//    }
+
     public static void main(String[] args) {
         Product prt = new Product();
         prt.price = 200;

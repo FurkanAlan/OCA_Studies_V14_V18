@@ -25,11 +25,11 @@ public class CCMask {
 //        StringBuilder sb = new StringBuilder(creditCard);
 //        StringBuilder s = sb.insert(0,x);
 //
-//        StringBuilder sb = new StringBuilder(x);
-//        StringBuilder s = sb.insert(15,creditCard.substring(15,19));
+//        StringBuilder sb = new StringBuilder(creditCard);
+////        StringBuilder s = sb.insert(15,creditCard.substring(15,19));
+//        StringBuilder s = sb.insert(0,x);
 //        return s.toString();
     }
-
 
 
     public static void main(String[] args) {

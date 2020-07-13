@@ -6,7 +6,9 @@ public class Q_83 {
 class Test8 {
 	public static void main(String[] args) {
 
-		Test8 ts = new Test8();
+		Test8 ts = new Test8();  //buradaki ts bir variable ve referans noktasi Test8 sinifi oldugu icin o sinifin
+		// icindeki metodlara ve degiskenlere bu skilde ulasmis oluruz ancak statiklerde hernekadar ts. dedikten
+		// sonra secenekler arasinda da cikartmasada yine de kullanilabilir
 		System.out.println(isAvailable);
 		isAvailable = ts.doStuff();
 		System.out.println(isAvailable);

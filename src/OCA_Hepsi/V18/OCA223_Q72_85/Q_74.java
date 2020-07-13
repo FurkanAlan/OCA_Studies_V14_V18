@@ -9,7 +9,7 @@ class Test75 {
         System.out.println("Reading Card");
     }
 
-    void checkCard(int cardNo) throws RuntimeException {  // line n1 //burasi herhangi bir hataya sebep olmuyor
+    void checkCard(int cardNo) throws RuntimeException{  // line n1 //burasi herhangi bir hataya sebep olmuyor
         System.out.println("Checking Card");
     }
 

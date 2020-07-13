@@ -17,10 +17,13 @@ public class Q126 {
         do {
             x--;
             System.out.print(array[x]);//ArrayIndexOutOfBoundsException
-            //Index -1 out of bounds for length 5, do nun ozelligi aldigi sayiyi sout a iletiyor
-            // array[x] = java.lang.IndexOutOfBoundsException : Invalid array range: 5 to 5, zaten ilk aldigi degerde
-            // bile hata veriyor
-            //array.length = 5
+            //5040302010Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+            // Problem aslinda 5--,  4 (yani 4. indexe git diyor System.out.print(array[4]) ) oluyor bu sekilde
+            // gidiyor lakin 1--, 0. indexi yazdirdiktan sonraki adimda problem oluyor,
+            // cunku sayi 1--;  0 oluyor while(0>=0) bu sarti sagliyor bundan dolayi loop bi daha
+            // donecek 0--; yani -1 icin, System.out.print(array[-1]); herhangi bir deger olmadigi icin
+            // ArrayIndexOutOfBoundsException hatasi veriyor
+
         } while (x >= 0);
 
 

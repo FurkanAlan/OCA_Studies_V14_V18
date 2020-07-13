@@ -29,8 +29,8 @@ public class Q104 {
 	        Base b3 = new DerivedB();
 	        Base b4 = b3; //new DerivedB();
 	        b1 = (Base) b2; //new DerivedA();
-	        b1.test();
-	        b4.test();
+	        b1.test();  //DerivedA()
+	        b4.test(); //DerivedB()
 	    }
 
 	}

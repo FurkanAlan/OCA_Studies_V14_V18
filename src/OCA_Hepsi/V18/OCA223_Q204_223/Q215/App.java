@@ -13,7 +13,11 @@ public class App {
             obj.open();
             obj.process();
             //insert code here
-        } catch (Exception e) { // eger 30. satirdaki, throw new AccessViolationException(); silersem bana catch
+        }
+//        catch (RuntimeException re){
+//            System.out.println("runtime");
+//        }
+        catch (Exception e) { // eger 30. satirdaki, throw new AccessViolationException(); silersem bana catch
             // dekini de yaziracak
             System.out.println("completed.");
         }

@@ -14,7 +14,8 @@ public class Jeans {
 //        String color= Shirt.getColor();
 
 		String color = getColor();
-
+//        String x = getX();
+//        System.out.println(x);
 
 
         if (color.equals("Green")) {

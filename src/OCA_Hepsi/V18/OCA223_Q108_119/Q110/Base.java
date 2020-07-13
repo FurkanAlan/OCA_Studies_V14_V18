@@ -47,6 +47,9 @@ class DerivedB extends DerivedA {
         //DerivedB b4 = (DerivedA) b3; bu sekilde oldugunda da burasi da hataya sebep oluyor,
         // Required type: DerivedB  Provided: DerivedA
         //DerivedA b4 = (DerivedA) b3; Base b4 = (DerivedA) b3; bunlarda herhangi bir hata yok
+
+        //(DerivedA) bu sekilde olmasi sonucu etkilemiyor, b3 den dolayi sonuc DrivedB yazdirir ve buradaki (DrivedA)
+        // sadece gostermelik bir ifade
         b1.test();
         b4.test();
 

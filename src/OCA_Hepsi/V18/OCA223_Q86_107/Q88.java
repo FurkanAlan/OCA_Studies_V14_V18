@@ -4,7 +4,7 @@ public class Q88 {
     public static void main(String[] args) {
         int x = 6;
         while (isAvailable(x)) {
-            System.out.print(x); //bu haliyle infinite loop olacak cunku while(true) oluyor ve surekli 6 yazdirir
+            System.out.print(--x); //bu haliyle infinite loop olacak cunku while(true) oluyor ve surekli 6 yazdirir
         }
     }
 

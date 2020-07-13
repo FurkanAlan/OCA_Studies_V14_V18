@@ -22,9 +22,9 @@ class Shop {
 		lst.add(new Product(10, "IceCream")); //1st deil 1st. hata verince lst cevirdim.
 		lst.add(new Product(11, "Chocolate"));
 		Product p1 = new Product(10, "IceCream"); //burada assign edilmedigi icin p1 den dolayi herhangi birsey yok
-		// eklenmedi
+		// eklenmedi, add yapilmadigi icin
 
-		//lst.add(p1);
+//		lst.add(p1);
 
 //		System.out.println(p1.id);
 

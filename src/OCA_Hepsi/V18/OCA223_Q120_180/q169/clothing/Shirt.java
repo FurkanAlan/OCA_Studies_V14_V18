@@ -9,5 +9,8 @@ public class Shirt {
         return "Green";
 
     }
+//    public static String getX() {
+//        return "X";
+//    }
 
 }

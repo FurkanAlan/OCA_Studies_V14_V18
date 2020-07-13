@@ -16,7 +16,7 @@ class Person {
     }
 
     public Person(String name, int age) {    // line n2
-         new Person(name); //bu bir contructor oldugu, metodun cagrilmasi bekleniyor
+         new Person(name); //bu bir contructor oldugu icin, metodun cagrilmasi bekleniyor
 //         new anahtar kelimesiyle
 //        person.
         //burada setName(name) olmadigi icin bu constructor un icindeki name kismi alinamiyor ve new Person(name),
@@ -50,7 +50,10 @@ class Person {
     }
 
     public static void main(String[] args) {
-        Person p1 = new Person("Jesse");
+        Person p1 = new Person("Jesse");  //heap memory de yer acti ve degerler olarak name e Jesse ve age e 25 atadi
+        // bunu Person@466 yerlestirdi hafizada tutuyor buna giden referans da p1 verildi, bir kutu dusun bu kutunun,
+        // bu kutunun adi heap memory deki adi Person@466,  icersine name: Jesse, age: 25 atandi ve bu kutu ya
+        // referans olarak p1 degiskeni atandi
         Person p2 = new Person("Walter", 52);
         System.out.println(p1.show());
         System.out.println(p2.show());

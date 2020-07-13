@@ -68,4 +68,4 @@ class TestT {
         e3.printDetails();
     }
 }
-//Ans : E
+//Ans : D olmali cunku Employee class da hata verecek bir durum yok

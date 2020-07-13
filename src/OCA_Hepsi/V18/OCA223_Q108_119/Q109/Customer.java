@@ -1,7 +1,5 @@
 package OCA_Hepsi.V18.OCA223_Q108_119.Q109;
 
-import java.util.Scanner;
-
 //Given these two classes
 public class Customer {
     ElectricAccount acct = new ElectricAccount();
@@ -14,7 +12,8 @@ public class Customer {
 
     public static void main(String[] args) {
         ElectricAccount hesab = new ElectricAccount();
-
+        //eger void metod varsa direk metod adiyla cagrilir
+//        hesab.addKWh(12);
 
 //        System.out.println("sonuc: " + hesab.addKWh(1)); //burada tamper demek hesab 0 veya negatif olmamali demek
         // sanirim
@@ -57,10 +56,11 @@ A. Option A
 
 ////  B
 
-//    public  addKWh(double kWh) {
+//    public void addKWh(double kWh) {
 //        if (kWh > 0) {
 //            this.kWh = this.kWh + kWh;
 //            this.bill = this.kWh * this.rate;
+////           System.out.println(this.bill);
 //        }
 //
 //    }

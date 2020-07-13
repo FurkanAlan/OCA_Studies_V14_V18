@@ -7,10 +7,11 @@ interface II {
     public void displayII();
 }
 
-class C12 {
+class C12{
     public void displayC2() {
         System.out.println("C2");
     }
+
 }
 
 class C1 extends C12 implements II {
@@ -30,6 +31,7 @@ class C1 extends C12 implements II {
         // Required type: II Provided: C12
 //          C12 s = (C12) obj2;  ancak bu sekilde yapilirsa hata giderilmis olur
 //        II t = (II) obj1;
+        //yada diger cozum C12 imlement II interface olsaydi buda cozum olurdu tabi metodlari Override olmali
 
 //        t.displayII();
 //        s.displayC2();

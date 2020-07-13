@@ -5,7 +5,8 @@ import java.util.List;
 
 public class Q91 {
 
-	/*
+
+    /*
     >public abstract class Animal
     
     >public interface Hunter
@@ -44,8 +45,10 @@ public class Q91 {
 //        ArrayList<Hunter>myList3=new ArrayList<>();
 //        myList3.add(new Tiger());
 //D)
-//      ArrayList<Tiger> myList4=new ArrayList<>(); //cast gerekli
-//      myList4.add(new Cat());
+//      ArrayList<Tiger> myList4=new ArrayList<>(); //cast gerekli, Baglantisi olanlar arasinda cast yapilir
+        // parent-child yalniz burada child den parent egidildigi icin cast gerekli oluyor
+//      myList4.add(new Cat()); //eger, parent-child baglantisi kaldirilsa Cast yapilamiyor
+        //Required type: Tiger  Provided: Cat
 //E)
 //        ArrayList<Animal>myList5=new ArrayList<>();
 //        myList5.add(new Cat());
@@ -57,8 +60,8 @@ public class Q91 {
         E.Option E
         Answer:  D
          */
-   // }
+        // }
 
 
-}
+    }
 }

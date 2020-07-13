@@ -26,8 +26,9 @@ public class Q103 {
 //        x = 100;
 //        while (x <= 100) {
 //            x++;
+        //        System.out.println("Welcome " + x);
+
 //        }
-//        System.out.println("Welcome " + x);
 //
 
 //D.

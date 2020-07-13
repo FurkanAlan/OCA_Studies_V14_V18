@@ -15,6 +15,7 @@ public class App {
     public static void main(String[] args) {
         App t = new App();
         String greet = "Good Luck!";
+//        t.setGreet();
         System.out.println(t.greet);
     }
 }
