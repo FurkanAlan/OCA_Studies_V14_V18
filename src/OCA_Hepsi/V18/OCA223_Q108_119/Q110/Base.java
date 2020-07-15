@@ -15,6 +15,7 @@ class DerivedA extends Base {
     }
 }
 
+
 class DerivedB extends DerivedA {
 
     public void test() {

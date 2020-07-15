@@ -48,7 +48,7 @@ public class Q_66 {
         //C22 obj2 = new C11();   ve  C22 s = obj2; olsun diyor
 
 
-        I t =  (C11) obj1;         //alt (C22 veya C11) dan uste (I) gidildigi zaman Cast gerekli, diger turlu hata
+        I t =   obj1;         //alt (C22 veya C11) dan uste (I) gidildigi zaman Cast gerekli, diger turlu hata
         // verir
         //Mesela burada Cast olmasaydi Interface de olustu
         //t obj1 referans yapiyor ve obj1 ise C1 objesine referans yapiyor t.displayI da C1 sinifi

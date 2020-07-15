@@ -34,7 +34,6 @@ class C extends A {
         // yapan bir obje ye esitlemeye calisiyoruz. ancak bunlar arasinda
         // ucuncu olarak parent-child baglantisi olmadigi icin
         // istisna veriyor
-
         b1 = (A) b2;  // line n2
         b1.test();
         b3.test();

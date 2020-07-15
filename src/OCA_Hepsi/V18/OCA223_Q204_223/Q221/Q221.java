@@ -10,7 +10,8 @@ public class Q221 {
         colors.add("blue");
         colors.add("red");
         colors.add("yellow");
-        colors.remove(2);
+        colors.remove(2);  //yada colors.remove("red"); seklinde de yapilabilir buradaki red String oldugu icin obje
+        // oluyor ve obje direk nereye karsilik geliyorsa onu siliyor
         colors.add(3,"cyan");
         System.out.println(colors);
     }

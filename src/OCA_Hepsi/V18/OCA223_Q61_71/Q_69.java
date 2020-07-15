@@ -89,3 +89,10 @@ class Test {
  * <p>
  * Answer: E
  */
+
+
+class testX{
+    testX(){
+
+    }
+}

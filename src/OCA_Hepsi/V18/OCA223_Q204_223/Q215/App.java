@@ -27,7 +27,8 @@ public class App {
         // yapilmali yada try-catch diger turlu Unhandled exception: OCA_Hepsi.V18.OCA223_Q204_223.Q215
         // .LogFileException hatasi veriyor Complie hatasi ,add exception method signature yapilmasi geriyor
         System.out.println("Processed");
-        throw new LogFileException();
+        throw new LogFileException(); //eger bunu try-catch ile yapsaydik her kullandigimiz zaman throws kullanmamiz
+        // gerek kalmiyor
     }
 
     public void open() { //ancak Runtime daha farkli ,add exception method signature yapilmasi gerekmiyor (emin degilim)

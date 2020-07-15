@@ -14,13 +14,14 @@ public class Q210 {
 //which code snippet at line 9 prints true?
 //   A.
 
-//      Boolean s=p.apply(101);
+//        System.out.println(p);
+//      Boolean s=p.test(101);
 //      System.out.println(s);
 
 //   B. //Dogru cevap
 
-      Boolean s=p.test(100);
-      System.out.println(s);
+//      Boolean s=p.test(100);
+//      System.out.println(s);
 
 
 //   C

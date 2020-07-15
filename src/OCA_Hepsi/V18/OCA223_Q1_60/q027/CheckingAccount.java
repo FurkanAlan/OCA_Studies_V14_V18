@@ -3,9 +3,9 @@ package OCA_Hepsi.V18.OCA223_Q1_60.q027;
 public class CheckingAccount {
     public int amount;
     // line n1
-//	public CheckingAccount(){
-//		amount = 100;
-//	}
+	public CheckingAccount(){
+		amount = 100;
+	}
 
 
 //	public CheckingAccount(){

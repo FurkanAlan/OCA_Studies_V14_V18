@@ -12,7 +12,7 @@ public class Test {
     }
 
     /* line n1 */
-    static int[] findMax(int[] numbers) {
+    static int[] findMax(int[] max) {
         int[] keys = new int[3];                                //2. parameter of the method must be int array:    static____findMax(int [] numbers);{
 
         /* code goes here */

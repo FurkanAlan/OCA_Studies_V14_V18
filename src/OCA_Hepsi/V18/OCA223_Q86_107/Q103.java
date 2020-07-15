@@ -17,9 +17,9 @@ public class Q103 {
 
 
 //B.
-//        for (x = 100; x <= 100; x++) {
-//            System.out.println("Welcome " + x);
-//        }
+        for (x = 100; x <= 100; x++) {
+            System.out.println("Welcome " + x);
+        }
 
 
 //C.

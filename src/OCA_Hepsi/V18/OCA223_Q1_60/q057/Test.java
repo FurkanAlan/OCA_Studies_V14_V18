@@ -22,8 +22,8 @@ public class Test {
         // Which code fragment, when inserted at line n1, enables the code to print Hank?
 
 //		checkAge (iList, () -> p.getAge() > 40);  //buradaki problem () icersinde p olmaliydi
-//		checkAge (iList, Person p -> p.getAge() > 40);  // burada Person p parantez icinde olmaliydi
-//        checkAge(iList, p -> p.getAge() > 40);
+//		checkAge (iList, Person p -> p.getAge () > 40);// burada Person p parantez icinde olmaliydi
+        checkAge(iList,p -> p.getAge () > 40);
 //		checkAge (iList, (Person p) -> {p.getAge() > 40});
     }
 }

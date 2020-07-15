@@ -14,10 +14,20 @@ public class Q207 {
         arr[1] = new int[]{1, 3};
 
         for (int[] a : arr) {
+//            for (int ax : a){ // hepsini yazirir, 1.metod
+//                System.out.println(ax+" ");}
+//
+//            for (int i = 0; i < a.length; i++) { //bu sekliyle de hepsini yazdirir 2.metod
+//                System.out.println(a[i] + "");
+//            }
+
+
             for (int i = 0; i < arr.length; i++) {
                 System.out.println(a[i] + " ");
             }
             System.out.println();
+            }
+
         }
     }/*
     what is the result?
@@ -27,5 +37,7 @@ public class Q207 {
     D. 1 3followed by an ArrayIndexOutOfBoundsException
     E. Compilation
     */
-    //Answer B  aciklamsi var v18
-}
+//Answer B  aciklamsi var v18
+
+
+

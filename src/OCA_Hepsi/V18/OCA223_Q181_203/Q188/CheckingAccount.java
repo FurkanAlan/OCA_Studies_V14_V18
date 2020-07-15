@@ -32,7 +32,7 @@ class Test11 {
 //        acct.getAmount() =0; //variable expected
 //        this.amount = 0; //cannot be referenced from static content
 //        acct.changeAmount(0);
-//        acct.changeAmount(-acct.amount);
+        acct.changeAmount(-acct.amount);
 //        System.out.println(acct.amount);
         System.out.println(acct.getAmount());
     }
